@@ -1,1 +1,1 @@
-http://73rhodes.github.io/talks/MachineLearning
+http://MarkPearl.github.io/Talk_MobProgramming
