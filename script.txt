@@ -49,3 +49,4 @@ That's selfish - do you email people - that's communication.
 - [Real life mobbing](http://blog.crisp.se/2015/12/28/yassalsundman/real-life-mob-programming)  
 - [something](http://benjiweber.co.uk/blog/2015/04/17/modern-extreme-programming/)  
 - [something else](http://workingsoftware.co.uk/2015/12/17/give-mob-programming-a-go/)  
+- [something else again](http://codecoupled.org/2015/10/12/journeyman-twingly/)
