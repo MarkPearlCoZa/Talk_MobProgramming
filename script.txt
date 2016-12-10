@@ -1,0 +1,51 @@
+Hi everyone, my name is Mark Pearl and I'm here to do this session on Mob Programming. 
+
+So this is what I want to share with you, the idea of Mob Programming. How we do it, is part of it, how I was exposed to it, what led up to it, what are some of the things we observed when doing it.
+
+How many of you here have heard of Mob Programming before this conference? Wonderful, I would love to catch up with you after the session to find out your experiences.
+
+Now, I want to start off this session with a quote 
+
+> The value of another's experience is to give us hope, not to tell us how or whether to proceeed - Peter Block.
+
+I really want to get that to sink in a little bit. I'm not here to tell you how to do something, or whether you should do it. I'm here to expose you to an idea - that maybe in your own environment you will find a wonderful way to work with your team. 
+
+So this is how I think about Mob Programming
+
+Mob Programming is all the brilliant minds, working at the same time, in the same place, and Mob Programming just adds this idea that we are at the same computer. This is how I think of it. All of us in software development need to bring our brilliance to work. And we need to look for ways to amplify that.
+
+# How was I introduced to Mob Programming
+
+Early last year I travelled to the US to attend a regional agile conference called Agile Roots. As part of the trip I organized to spend a day of team tourism with a company called Pluralsight. Now for those not familiar with Team Tourism - the idea behind it is to spend some time with a team other than yours in the hopes that you can learn new things that you can take back to your own team. Well, I was expecting to spend the day pair programming with someone, when I arrived I was told that the team I was going to spend the day with doesn't pair - they mob?
+
+That day turned out to be one of the funnest day's I had had in my career up to that point. Basically, the four of us stood in front of two large monitors working as a group on a single problem with one keyboard. We had a timer open, and every ten minutes the timer would go off and we would rotate so that a different person was at the keyboard. I was told that when I was at the keyboard my main objective was to go implement what the rest of the group wanted me to do. If I wasn't at the keyboard, my job was to help solve the problem.
+
+We worked pretty much the entire day like that. At some times individuals stepped out of the mob for various things and then re-joined at later stages - what I observed was that for pretty much the whole day the most important thing was worked on all the time. By the end of the day I was exhausted.
+
+# If we are not able to answer our own questions, then we are missing someone
+
+# Get through the work rapidly
+
+# Our work layout
+
+So this is how Mob Programming looks from the front. 
+
+# Challenges we face
+
+## Is this a slow way of developing software
+
+
+
+## Space is an issue
+
+- our work environment does not cater for the space we need to mob. We need more of an open space with a larger table. I've noticed that in our current mob as we hit 4 people things start to become cramped. This was not an issue with my previous mob where we could comfortably mob with 5 people.
+
+## I want to work with others on my own terms
+
+That's selfish - do you email people - that's communication.
+
+## References
+
+- [Real life mobbing](http://blog.crisp.se/2015/12/28/yassalsundman/real-life-mob-programming)  
+- [something](http://benjiweber.co.uk/blog/2015/04/17/modern-extreme-programming/)  
+- [something else](http://workingsoftware.co.uk/2015/12/17/give-mob-programming-a-go/)  
