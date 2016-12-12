@@ -1,4 +1,4 @@
-Hi everyone, my name is Mark Pearl and I'm here to do this session on Mob Programming. 
+Hi everyone, my name is Mark Pearl and I'm here to do this session on Mob Programming which is an experience I have had over the last two years.
 
 So this is what I want to share with you, the idea of Mob Programming. How we do it, is part of it, how I was exposed to it, what led up to it, what are some of the things we observed when doing it.
 
@@ -8,13 +8,19 @@ Now, I want to start off this session with a quote
 
 > The value of another's experience is to give us hope, not to tell us how or whether to proceeed - Peter Block.
 
-I really want to get that to sink in a little bit. I'm not here to tell you how to do something, or whether you should do it. I'm here to expose you to an idea - that maybe in your own environment you will find a wonderful way to work with your team. 
+I really want to get that to sink in a little bit. I'm not here really to tell you how to do something, or whether you should do it. I'm here to expose you to an idea - that maybe in your own environment you will find a wonderful way to work with your team.
 
 So this is how I think about Mob Programming
 
-Mob Programming is all the brilliant minds, working at the same time, in the same place, and Mob Programming just adds this idea that we are at the same computer. This is how I think of it. All of us in software development need to bring our brilliance to work. And we need to look for ways to amplify that.
+Mob Programming is all the brilliant minds, working at the same time, in the same place, and Mob Programming just adds this idea that we are at the same computer. This is how I think of it. All of us in software development need to bring our brilliance to work. We want to accentuate that and we need to look for ways to amplify that.
 
-# How was I introduced to Mob Programming
+# How does Mob Programming look
+
+So this is how it looks like from the front. There are a bunch of people sitting together looking at a bunch of screens with one person at the keyboard. This happens to be a team of about 5 people. And this is what it looks like at the back. You get an idea for the work area. I like it spread out, people can sit comfortably. And this is how a day of Mob Programming looks like. We take lunch, we often take lunch together. You will see we have people joining or leaving the mob at different times - it depends on what meetings you have in the day. So I think you have seen enough of this. You kind of have enough of an idea of how it looks like in the wild. It is very active. All the people needed to do the work are in the mob or near by.
+
+So everybody always asks about half a dozen questions when we play a video like this.
+
+# So the one question people ask is how did you find out about this?
 
 Early last year I travelled to the US to attend a regional agile conference called Agile Roots. As part of the trip I organized to spend a day of team tourism with a company called Pluralsight. Now for those not familiar with Team Tourism - the idea behind it is to spend some time with a team other than yours in the hopes that you can learn new things that you can take back to your own team. Well, I was expecting to spend the day pair programming with someone, when I arrived I was told that the team I was going to spend the day with doesn't pair - they mob?
 
@@ -22,19 +28,175 @@ That day turned out to be one of the funnest day's I had had in my career up to 
 
 We worked pretty much the entire day like that. At some times individuals stepped out of the mob for various things and then re-joined at later stages - what I observed was that for pretty much the whole day the most important thing was worked on all the time. By the end of the day I was exhausted.
 
+I then brought this back to my team in South Africa. We were already a highly collaborative group. We would typically pair program.
+
+# Turning up the good
+
+We often focus on the bad stuff. But if we focus on the good stuff and how to turn that up, there is a great advantage to that. Extreme Programming talks about that. In one of Kent Becks books he speaks about what happens when we turn the good up. And that is what we see with Mob Programming. What are the good things that we can make better.
+
+# Collaboration
+
+> The object isn't to make art, it's to be in that wonderful state which makes art inevitable - Robert Henri
+
+The concept of this is about providing an environment where people can excel in their work. And if you provide that environment, people will figure out how to make things wonderful if you allow that to happen.
+
+# Why would we work this way?
+
+Why would we work where everybody is sitting at the same computer
+
+## Better quality
+
+## Instant review of both the design and the code
+
+## Faster learning - it's a very accelerated learning environment
+
+## Team resiliency - that's a good point, if someone is sick today, we don't have to wait for them, and if someone is new, we can have them productive from day one
+
+# How can we work this way?
+
+Initially it was great, but if you are working with the same people all day, every day in close contact you have to get some mechanisms to work this way for an extended period of time. You have to figure out a protocol or some way to work. And there are many of them out there. 
+
+We value individuals and interactions, pretty much over everyone else. If we are going to get stuff done, we need to interact well. We have got to figure out how to do that. We are all different. I've found that if you treat someone with Kindness, Consideration & Respect it makes it a lot easier for people to work together.
+
+Now I would like to talk a bit about consideration. Consideration is about considering the other person's point of view. We have to really focus on listening.
+
+# Roles in Mob Programming
+
+Now I want to speak about a practice we use. We have two roles in Mob Programming. We have the typist and everyone else. The role of the typists is to type and to listen. 
+
+> For an idea to go from someones head into the computer it must go through someone else's hands - Llewellyn Falco
+
+So let's see how this works. We have a keyboard which is a dumb input device. It is how we put letters into the computer. Then we have the concept of the typist - the person putting something into the computer. Everyone else is the rest of the mob. The typist is rotated amongst the mob - it's a role. I've experimented with rotation cycles, I find ten minutes works best.
+
+# No merge problems
+
+We have almost no merge problems, because we are working on one thing at a time - it's a natural one piece flow if I use lean terminology.
+
+# Productivity
+
+How can you be productive with 5 people at 1 computer? Now the first thing I ask a manager is how can you be productive sitting in a meeting with 5 people, which they do all the time. Now I'm a manager, so I understand this stuff - we want to know how productive people can be. Now initially I didn't know how we could be productive - I just knew we were. After doing this for almost two years I have a few ideas. It comes fundamentally to what programming is - what is programming?
+
+Is it typing?
+Ultimately it is thinking. Programming is about the code you didn't write.
+Can you really measure things this way? I can sense this is a lot better if you keep the entire lifecycle of development in mind.
+Some people have attempted to keep records, Martin has shared some work
+
+The amount of work getting done isn't a useful measure if you are not working on useful things. 
+If we measure productivity on code being written, 
+I believe that most of the important things are difficult to measure and so we pick easier things to measure, and those things become valuable and we thinko
+
+> Because a manager cannot measure the things they want, they start wanting the things they can measure - Russel Ackoff
+
+That's dysfunctional in my opinion.
+
+> Transformation becomes  more from pursuing profound questions than seeking profound answers.
+
+# What are the things that destroy productivity for software developers
+
+- Communication Problems
+- Decision making problems - I put off making a decision, rope in my boss to sign off on something, and rope in their boss to make a decision to make sure if something goes wrong I'm not accountable for it. And once we make decisions we have to defend them. 
+- Doing more than is barely sufficient
+- Technical debt & cruft etc
+- Thrashing - this is the idea of context switching, having to continually switch between items
+- Meetings
+- Distractions
+- Multi tasking
+- Procrastination
+- Lack of information
+- Lack of understanding
+- Waiting / being blocked
+- Multi tasking
+- Distributed knowledge
+- Deadlines
+- Politics
+
+I'm going to cover two of these things in detail. What we noticed is a lot of these things faded away. We didn't look to remove these problems, but they were side effects of how we worked.
+
+## Working well as a team
+
+If you have ever played sports and are working in a team, you set everyone else up for success.
+
+## Communication Problems
+
+I am going to cover one aspect of communication problems that I have to limit it to just one. 
+
+### Question Que Time
+
+You have a piece of work which is waiting to be worked on. It's the waiting time that we are talking about. This is the amount of time that we must wait to get an answer to a question that is blocking us. While we wait we have to context switch to someonething else while we are waiting. 
+
+<Value stream map>
+
+We can map anything against the value part. 
+
+So what's the ideal queue time? Zero, none - we have a green bar going across the time. 
+What if we had a two minute wait, you are going to loose about 15 minutes a day.
+What if we have a ten minute wait, 
+What if we have a one hour wait
+
+How do we typically solve this? If we have something blocked what do we do? We multi task - so now what do we see, we see this beautiful bar of always being ready but we are hiding the red bar of not being able to progress. This is the thing, we are dealing with a symptom - the problem is we are not getting answers to our questions in a timely manner. So we are baiscally trying to solve a queing problem but we are introducing an inventory problem. 
+
+> Stop starting, and start finishing
+
+So how do we solve this? I don't know, we didn't solve it - it faded away. We seemed to have fewer blocking questions. In Mob Programming we are there to answer our questions all the time. We have a zero queue time.
+
+Something funny with Mob Programming was if our product owners stayed close to us, they would get their work really quickly. 
+
+Work in progress goes to one
+
+This is an automatic one piece flow. Work in progress naturally goes to one. I've been chasing work in progress limits all the time. When we started Mob Programming wip gravitated to one.
+
+## Technical Debt
+
+So I want to talk about Technical Debt, and again there are too many technical debt things to talk about so I'm going to pick one thing. We have three similar problems, and three developers take them on individually. What happens - you get three different solutions to the problem. It's hard to see a pattern if you don't see more than one of something. You have to see a number of them.
+
+Technical Debt Free - when a story comes in we take them one at a time, and the whole team sees it - we scrutinize it. When I write code alone, the very best of what I do and the very worst of what I do get's into the code. When I work as a Mob, the very best of what I do get's in the code, and the very worst of what I doesn't. We can smell out the bad stuff. 
+
+We identifiy patterns easier - because someone will recognize the pattern, we identify DRY. The code get's cleaner. We have the technical debt version, and the technical debt free version. 
+
+Bugs decrease rapidly. It's a very high quality way of working.
+
+When a bug report comes in, and you have 3 different solutions, often the bug only get's sorted in one of the solutions - the other two bugs remain undetected. 
+When we have a cleaner pattern and a bug comes in, we apply it to all three things.
+
+# Meetings
+
+The funny thing about meetings is we share information we have, we make decisions, assign some work and then everyone goes on their own. We got aligned for a minute and then everyone get's disalinged. So people will look at Mob Programming and say, that's just a meeting - it's a working meeting.
+
+# Environment of Continous Learning
+
+Continous learning happens at some many levels. You are learning shortcuts, you are learning language things, you are learning about the business. There are many many advantages to this. The knowledge get's shared across.
+
+# Exposed 
+
+A warning, you will feel exposed with this type of work. If you cannot feel comfortable with someone else in front of the keyboard you cannot do that. It will be a problem for some people. You have tobe able to work this way.
+
+# Pay attention to ergonomics
+
+# Relaxed & sustainable
+
+Be sure things stay relaxed and sustainable. If we don't feel we cannot contribute, settle back. We don't need to be the one contributing.
+
+# What's the ideal number?
+
+I've found 4-5 people in our current mob works well.
+
+# Do I recommend Mob Programming
+
+Absolutely, I would love to see people doing more of this. 
+
+# Isn't this an expensive way of creating software
+
 # If we are not able to answer our own questions, then we are missing someone
 
 # Get through the work rapidly
-
-# Our work layout
-
-So this is how Mob Programming looks from the front. 
 
 # Challenges we face
 
 ## Is this a slow way of developing software
 
+# Pay attention to what works and turn up the good
 
+If something is working well, then turn it up.
 
 ## Space is an issue
 
