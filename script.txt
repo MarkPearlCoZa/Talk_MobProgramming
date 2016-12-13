@@ -1,8 +1,10 @@
-Hi everyone, my name is Mark Pearl, I'm excied to be here to share the experiences I've had over the last two years on this way of working.
+Hi everyone, my name is Mark Pearl, I'm excited to be here to share the experiences I've had over the last two years on this way of working.
 
-So this is what I want to share with you, the idea of Mob Programming. 
+So my experience starts early 2015 when I travelled to the US to attend a regional agile conference. Something I like to do when travelling is 'Team Tourism' - for those not familiar with Team Tourism - the idea behind it is to spend some time with teams other than your own to see how they work. I have been doing this for a few years in the hopes that I can learn new things that I can take back to my own team and I was lucky enough in this instance to spend a day at a company called PluralSight.
 
-I'm going to spend a few minutes how I was exposed to it, then I'm going to speak briefly  on how we do it; and spend the lion's share of time on some of the things we've observed when doing it.
+Now, I was expecting at PluralSight to spend the day pair programming however when I arrived I was told that the team I was going to be with didn't pair - they mobbed. Needless to say I that day was a great introduction to the practice of mobbing and since then I have used it in the teamms I've been involved with.
+
+Today I'm going to spend a few minutes on what it is and how we do it; and then I'm going to spend the remainder of the time on some of the things we've observed when Mob Programming.
 
 How many of you here have done Mob Programming before? Wonderful, I would love to catch up with you after the session to find out your experiences.
 
@@ -28,15 +30,8 @@ You will see we have people joining or leaving the mob at different times - it d
 
 So everybody always asks about half a dozen questions when we play a video like this.
 
-# So the one question people ask is how did you find out about this?
+# So now that you have seen mob proone question people ask is how did you find out about this?
 
-Early last year I travelled to the US to attend a regional agile conference called Agile Roots. As part of the trip I organized to spend a day of team tourism with a company called Pluralsight. Now for those not familiar with Team Tourism - the idea behind it is to spend some time with a team other than yours in the hopes that you can learn new things that you can take back to your own team. Well, I was expecting to spend the day pair programming with someone, when I arrived I was told that the team I was going to spend the day with doesn't pair - they mob?
-
-That day turned out to be one of the funnest day's I had had in my career up to that point. Basically, the four of us stood in front of two large monitors working as a group on a single problem with one keyboard. We had a timer open, and every ten minutes the timer would go off and we would rotate so that a different person was at the keyboard. I was told that when I was at the keyboard my main objective was to go implement what the rest of the group wanted me to do. If I wasn't at the keyboard, my job was to help solve the problem.
-
-We worked pretty much the entire day like that. At some times individuals stepped out of the mob for various things and then re-joined at later stages - what I observed was that for pretty much the whole day the most important thing was worked on all the time. By the end of the day I was exhausted.
-
-I then brought this back to my team in South Africa. We were already a highly collaborative group. We would typically pair program.
 
 # Turning up the good
 
