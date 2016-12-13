@@ -1,22 +1,30 @@
-Hi everyone, my name is Mark Pearl and I'm here to do this session on Mob Programming which is an experience I have had over the last two years.
+Hi everyone, my name is Mark Pearl, I'm excied to be here to share the experiences I've had over the last two years on this way of working.
 
-So this is what I want to share with you, the idea of Mob Programming. How we do it, is part of it, how I was exposed to it, what led up to it, what are some of the things we observed when doing it.
+So this is what I want to share with you, the idea of Mob Programming. 
 
-How many of you here have heard of Mob Programming before this conference? Wonderful, I would love to catch up with you after the session to find out your experiences.
+I'm going to spend a few minutes how I was exposed to it, then I'm going to speak briefly  on how we do it; and spend the lion's share of time on some of the things we've observed when doing it.
 
-Now, I want to start off this session with a quote 
+How many of you here have done Mob Programming before? Wonderful, I would love to catch up with you after the session to find out your experiences.
+
+So, I'm going to start off this session with a quote I stole from Woody's talk on Mob Programming.
 
 > The value of another's experience is to give us hope, not to tell us how or whether to proceeed - Peter Block.
 
-I really want to get that to sink in a little bit. I'm not here really to tell you how to do something, or whether you should do it. I'm here to expose you to an idea - that maybe in your own environment you will find a wonderful way to work with your team.
+This is really important. I'm not hear to tell you how to do something, or whether you should do Mob Programming. I'm here to expose you to the idea. My hope is that in sharing our experiences with you, it will inspire you to try something in your own teams. I really want to get that to sink.
 
-So this is how I think about Mob Programming
+# What is Mob Programming
 
-Mob Programming is all the brilliant minds, working at the same time, in the same place, and Mob Programming just adds this idea that we are at the same computer. This is how I think of it. All of us in software development need to bring our brilliance to work. We want to accentuate that and we need to look for ways to amplify that.
+So what is Mob Programming? Mob Programming is when three or more people work together to solve one problem at one computer.
+
+Now this sounds really simple, and in many ways it is - in fact people all around the world are doing Mob Programming. And while in many ways it is simple once you have the hang of it, sometimes getting started can prove to be a challenge mainly because people are not used to working this way.
 
 # How does Mob Programming look
 
-So this is how it looks like from the front. There are a bunch of people sitting together looking at a bunch of screens with one person at the keyboard. This happens to be a team of about 5 people. And this is what it looks like at the back. You get an idea for the work area. I like it spread out, people can sit comfortably. And this is how a day of Mob Programming looks like. We take lunch, we often take lunch together. You will see we have people joining or leaving the mob at different times - it depends on what meetings you have in the day. So I think you have seen enough of this. You kind of have enough of an idea of how it looks like in the wild. It is very active. All the people needed to do the work are in the mob or near by.
+So what does Mob Programming look like?
+
+In my previous team we did a time lapse of us Mob Programming for a day. What you don't see is that we have a large 60" screen in front of us with a smaller monitor on the left with a countdown clock counting down every ten minutes. We have between 3 & 5 people in the mob at any time with one person at the keyboard. The keyboard is being rotated reguarly amongst us as the timer reaches zero. This particular layout was good - we had a portable whiteboard that we would brind into our space to make notes on. We also had the product owner who sat right by the mob so that at any point if we had questions we could instantly get information.
+
+You will see we have people joining or leaving the mob at different times - it depends on what we were working on, and if people were needed elsewhere, but in many ways I like to think the most important thing just keeps flowing on. So I think you have seen enough of this that you have an idea of what a particular implementation of mob programming looks like in the wild. It is very active and by the end of the day you are exhausted.
 
 So everybody always asks about half a dozen questions when we play a video like this.
 
