@@ -136,7 +136,7 @@ At its essence what you are trying to do is communicate in a meaningful way. Don
 
 So now that I've explained the two roles in Mob Programming let's talk about why a team would want to work this way. And for this I'm going to need your participation. 
 
-Why would a team work this way at the same computer?
+Why would a team work this way having three or more people working on one thing at the same computer?
 
 { Field questions from the audience }
 
@@ -146,46 +146,29 @@ These are all great idea's - ultimately the team works this way because they wan
 
 # The productivity question
 
-So the most common question I get when I explain how Mob Programming works is the productivity question. How can one be productive with 4 people at one computer - surely that means you have increased the cost of developing software by 4 times. Typically this question is asked by those managing.
+So the most common question I get when I explain how Mob Programming works is the productivity question. How can one be productive this way - surely if you have so many people working on one thing together you have massively increased the cost of developing software while decreasing productiivity? 
 
-I would like to tackle that question by asking managers how they believe they can be productive sitting in a meeting with 4 other people, which they do all the time. Now I'm a manager, so I understand this is an important question - productivity is important. 
+So measuring productivity of software developers is hard. Let's start with a quote and a story.
 
+> Managers who don't know how to measure what they want settle for wanting what they can measure  - Russell Ackoff
 
-Now initially I didn't know how we could be productive - I just knew we were. After doing this for almost two years I have a few ideas. It comes fundamentally to what programming is - what is programming?
+I believe that most of the important things related to developer productivity are difficult to measure and so we pick easier things to measure, and those things become valuable and we think we have a measure on productivity.
 
-Is it typing?
-Ultimately it is thinking. Programming is about the code you didn't write.
-Can you really measure things this way? I can sense this is a lot better if you keep the entire lifecycle of development in mind.
-Some people have attempted to keep records, Martin has shared some work
+Let me share a quick experience a friend of mine had. He was working on a project that had slipped well behind schedule and was unfortunate enough to sit next to the project manager. After one of the many frequent status updates of 'how they were progressing' on the work the project manager turned to him while he was sitting at his desk and pleaded "Can you not just type faster". 
 
-The amount of work getting done isn't a useful measure if you are not working on useful things. 
-If we measure productivity on code being written, 
-I believe that most of the important things are difficult to measure and so we pick easier things to measure, and those things become valuable and we thinko
+Well, we know that measuring developer productivity by how fast someone types is not an effective measure. We also know things like counting the number of lines of code written is unfortunately not an effective. I would even argue that measuring how many things have been completed during a certain period of time isn't a great measure because does it matter if we are busy but are not working on the right things?
 
-> Because a manager cannot measure the things they want, they start wanting the things they can measure - Russel Ackoff
+So when we started Mob Programming we didn't attempt to measure any of those things - we knew that at the end of each day we would come out of a mobbing session being exhausted and that was good enough for us. 
 
-That's dysfunctional in my opinion.
+So I like this quote from Peter Block.
 
-> Transformation becomes  more from pursuing profound questions than seeking profound answers.
+> Transformation comes more from pursuing profound questions than seeking profound answers - Peter Block
 
-# What are the things that destroy productivity for software developers
+So let's tackle the question of productivity by asking the question what destroy's productivity for software developers?
 
-- Communication Problems
-- Decision making problems - I put off making a decision, rope in my boss to sign off on something, and rope in their boss to make a decision to make sure if something goes wrong I'm not accountable for it. And once we make decisions we have to defend them. 
-- Doing more than is barely sufficient
-- Technical debt & cruft etc
-- Thrashing - this is the idea of context switching, having to continually switch between items
-- Meetings
-- Distractions
-- Multi tasking
-- Procrastination
-- Lack of information
-- Lack of understanding
-- Waiting / being blocked
-- Multi tasking
-- Distributed knowledge
-- Deadlines
-- Politics
+Does anyone have any ideas or personal favorties?
+
+{ Take answers from the audience }
 
 I'm going to cover two of these things in detail. What we noticed is a lot of these things faded away. We didn't look to remove these problems, but they were side effects of how we worked.
 
