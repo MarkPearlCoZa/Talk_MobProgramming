@@ -17,6 +17,10 @@ I'm going to start off with a quote that Woody Zuil uses when he speak about Mob
 
 This is really important - I'm not hear to tell you that you need to do Mob Programming or how you should do it. I'm hear in the hope that in sharing my experiences with you it will inspire you to try something in your own team. 
 
+Now what you decide to try is up to you but there is a idea that originates from Extreme Programming that helped Mob Programming get discovered that will help you discover your teams brilliance. Is called turning up the good. 
+
+We often focus and get stuck on the bad stuff. Instead if we focus on the good stuff and how to turn that up, there is a great advantage to that. And at it's core that is really how Mob Programming got discovered and what we should be looking out for when we develop software. What are the good things that we can make better.
+
 ---------------------------------------------------------------------------------------------------------------------------------
 
 # What is Mob Programming
@@ -61,7 +65,11 @@ So I think you have have enough of an idea of what Mob Programming looks like in
 
 # What are the roles in mob programming
 
-Now that you have seen a typical Mob Programming session, I want to talk about the roles in Mob Programming. In Mob Programming we have two main roles:
+Now that you have seen a typical Mob Programming session, I want to talk about the roles in Mob Programming. A quote I find best illustrates these roles is a one by Llewellyn Falco
+
+> For an idea to go from someones head into the computer it must go through someone else's hands - Llewellyn Falco
+
+In Mob Programming we only have two roles
 
 1. The typist
 2. The rest of the mob
@@ -134,20 +142,6 @@ These are all great idea's - I've put together my own list of things I've found 
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-
-
-# Turning up the good
-
-We often focus on the bad stuff. But if we focus on the good stuff and how to turn that up, there is a great advantage to that. Extreme Programming talks about that. In one of Kent Becks books he speaks about what happens when we turn the good up. And that is what we see with Mob Programming. What are the good things that we can make better.
-
-
-# Roles in Mob Programming
-
-Now I want to speak about a practice we use. We have two roles in Mob Programming. We have the typist and everyone else. The role of the typists is to type and to listen. 
-
-> For an idea to go from someones head into the computer it must go through someone else's hands - Llewellyn Falco
-
-So let's see how this works. We have a keyboard which is a dumb input device. It is how we put letters into the computer. Then we have the concept of the typist - the person putting something into the computer. Everyone else is the rest of the mob. The typist is rotated amongst the mob - it's a role. I've experimented with rotation cycles, I find ten minutes works best.
 
 # No merge problems
 
