@@ -4,33 +4,77 @@ So my experience starts early 2015 when I travelled to the US to attend a region
 
 Now, I was expecting at PluralSight to spend the day pair programming however when I arrived I was told that the team I was going to be with didn't pair - they mobbed. Needless to say I that day was a great introduction to the practice of mobbing and since then I have used it in the teamms I've been involved with.
 
-Today I'm going to spend a few minutes on what it is and how we do it; and then I'm going to spend the remainder of the time on some of the things we've observed when Mob Programming.
+Today I'm going to spend a few minutes on what it is and how we do it; and then I'm going to spend the remainder of the time on some of the common questions we get about Mob Programming as well as the things we've observed happen when we do Mob Programming.
 
 How many of you here have done Mob Programming before? Wonderful, I would love to catch up with you after the session to find out your experiences.
 
-I'm going to start off this session with a quote I stole from Woody's talk on Mob Programming.
+I'm going to start off this session with a quote I stole from a similar talk that Woody did on Mom Programming.
 
 > The value of another's experience is to give us hope, not to tell us how or whether to proceeed - Peter Block.
 
-I really want this to sink in - this is really important. I'm not hear to tell you that you need to do Mob Programming or how you should do it. That is up to you. Why I am here is to expose you to the idea. My hope is that in sharing my experiences with you, it will inspire you to try something in your own teams. I'm here to share with you what has worked for us, so that if you decide to try this out you have a hope that it has worked for others.
+This is really important - I'm not hear to tell you that you need to do Mob Programming or how you should do it. My hope is that in sharing my experiences with you, it will inspire you to try something in your own team. This is also not the defacto way of doing Mob Programming - there are many other ways of doing it, this is just what we have done. 
+
+---------------------------------------------------------------------------------------------------------------------------------
 
 # What is Mob Programming
 
-So what is Mob Programming? Mob Programming is when three or more people work together to solve one problem at one computer.
+So with that said, let's tackle what Mob Programming is. 
 
-Now this sounds really simple, and in many ways it is - in fact people all around the world are doing Mob Programming. And while in many ways it is simple once you have the hang of it, sometimes getting started can prove to be a challenge mainly because people are not used to working this way.
+Mob Programming is when three or more people work together to solve a problem at the same computer.
 
-# How does Mob Programming look
+It is a really effective practice that companies all over the world are adopting. 
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+# What does Mob Programming look like
 
 So what does Mob Programming look like?
 
-In my previous team we did a time lapse of us Mob Programming for a day. What you don't see is that we have a large 60" screen in front of us with a smaller monitor on the left with a countdown clock counting down every ten minutes. We have between 3 & 5 people in the mob at any time with one person at the keyboard. The keyboard is being rotated reguarly amongst us as the timer reaches zero. This particular layout was good - we had a portable whiteboard that we would brind into our space to make notes on. We also had the product owner who sat right by the mob so that at any point if we had questions we could instantly get information.
+Well, it just so happens that it's a thing in the Mob Programming world for people to do a time lapse videos of them mobbing - and it just so happens I did one of my previous team of us mobbing for a day.
 
-You will see we have people joining or leaving the mob at different times - it depends on what we were working on, and if people were needed elsewhere, but in many ways I like to think the most important thing just keeps flowing on. So I think you have seen enough of this that you have an idea of what a particular implementation of mob programming looks like in the wild. It is very active and by the end of the day you are exhausted.
+So here we are, what you don't see in this video is that we have a large 60" screen in front of us with a smaller monitor on the left with a clock counting down on ten minutes. As we work there is on general between 3 & 5 of us at the mobbing station at any one time with one person at the keyboard. 
 
-So everybody always asks about half a dozen questions when we play a video like this.
+The keyboard is rotated reguarly amongst us as the timer reaches zero. You will also see us use a whiteboard to make notes on. 
 
-# So now that you have seen mob proone question people ask is how did you find out about this?
+In our layout our product owner would sit right next to the mob so that if we needed any information he was on call.
+
+Generally we would all take lunch at the same time. 
+
+People leave as they have meetings or phone calls to make and them pretty much seamlessly re-join the mob. 
+
+And most importantly the thing being mobbed on is moving closer and closer to completion.
+
+So I think you have have enough of an idea of what Mob Programming looks like in the wild. 
+
+It is very active - by the end of the day you are exhausted.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+So, I would like to ask you the question: "Why would we work this way"?
+
+[Possible Answers]
+
+- Better quality  
+- Instant review of both the design and the code
+- Faster learning - it's a very accelerated learning environment
+- Team resiliency - that's a good point, if someone is sick today, we don't have to wait for them, and if someone is new, we can have them productive from day one
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+# Common questions we get about Mob Programming 
+
+
+# How can we work this way?
+
+Initially it was great, but if you are working with the same people all day, every day in close contact you have to get some mechanisms to work this way for an extended period of time. You have to figure out a protocol or some way to work. And there are many of them out there. 
+
+
+
+We value individuals and interactions, pretty much over everyone else. If we are going to get stuff done, we need to interact well. We have got to figure out how to do that. We are all different. I've found that if you treat someone with Kindness, Consideration & Respect it makes it a lot easier for people to work together.
+
+Now I would like to talk a bit about consideration. Consideration is about considering the other person's point of view. We have to really focus on listening.
+
+And while it is extremely effective once you have the hang of it, sometimes getting started can prove to be a challenging mainly because people are not used to working this way.
 
 
 # Turning up the good
@@ -43,25 +87,6 @@ We often focus on the bad stuff. But if we focus on the good stuff and how to tu
 
 The concept of this is about providing an environment where people can excel in their work. And if you provide that environment, people will figure out how to make things wonderful if you allow that to happen.
 
-# Why would we work this way?
-
-Why would we work where everybody is sitting at the same computer
-
-## Better quality
-
-## Instant review of both the design and the code
-
-## Faster learning - it's a very accelerated learning environment
-
-## Team resiliency - that's a good point, if someone is sick today, we don't have to wait for them, and if someone is new, we can have them productive from day one
-
-# How can we work this way?
-
-Initially it was great, but if you are working with the same people all day, every day in close contact you have to get some mechanisms to work this way for an extended period of time. You have to figure out a protocol or some way to work. And there are many of them out there. 
-
-We value individuals and interactions, pretty much over everyone else. If we are going to get stuff done, we need to interact well. We have got to figure out how to do that. We are all different. I've found that if you treat someone with Kindness, Consideration & Respect it makes it a lot easier for people to work together.
-
-Now I would like to talk a bit about consideration. Consideration is about considering the other person's point of view. We have to really focus on listening.
 
 # Roles in Mob Programming
 
