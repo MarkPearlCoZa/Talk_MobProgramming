@@ -1,10 +1,10 @@
-Hi everyone, my name is Mark Pearl, I'm excited to be here to share the experiences I've had over the last two years on this way of working.
+Hi everyone, my name is Mark Pearl, I'm excited to be here to share the experiences I've had over the last two years with Mob Programming with you.
 
-So my experience starts early 2015 when I travelled to the US to attend a regional agile conference. Something I like to do when travelling is 'Team Tourism' - for those not familiar with Team Tourism - the idea behind it is to spend some time with teams other than your own to see how they work. I have been doing this for a few years in the hopes that I can learn new things that I can take back to my own team and I was lucky enough in this instance to spend a day at a company called PluralSight.
+So my experience Mob Programming starts in early 2015 when I travelled to the US to speak at a conference. Something I like to do when I travel is 'Team Tourism' - basically the idea behind Team Tourism is to spend time with a team other than your own to see how they work. From my experience there are teams spread across the world that are doing amazing things. If we invest just a little bit of our time in visiting these teams them we can learn amazing things that we can use in our own teams.
 
-Now, I was expecting at PluralSight to spend the day pair programming however when I arrived I was told that the team I was going to be with didn't pair - they mobbed. Needless to say I that day was a great introduction to the practice of mobbing and since then I have used it in the teamms I've been involved with.
+Now, in this instance I was lucky enough to go to a company called PluralSight. I was expecting at PluralSight to spend the day pair programming, instead when I arrived I was told that the team I was going to be with didn't pair - they mobbed. At the time I had no clue what mobbing meant - but I was up for anything. That day I had such an amazing time with Mob Programming that by the end of it I was hooked. Since then I have used some variant of Mob Programming in all the teams I've been in.
 
-Today I'm going to spend a few minutes on what it is and how we do it; and then I'm going to spend the remainder of the time on some of the common questions we get about Mob Programming as well as the things we've observed happen when we do Mob Programming.
+Today I want to spend a few minutes on what Mob Programming is and how we do it; and then I'm going to spend the remainder of the time on some of the common questions we get about Mob Programming as well as the things we've observed happen when we do it.
 
 How many of you here have done Mob Programming before? Wonderful, I would love to catch up with you after the session to find out your experiences.
 
