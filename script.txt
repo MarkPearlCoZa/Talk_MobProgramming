@@ -17,9 +17,9 @@ I'm going to start off with a quote that Woody Zuil uses when he speak about Mob
 
 This is really important - I'm not hear to tell you that you need to do Mob Programming or how you should do it. I'm hear in the hope that in sharing my experiences with you it will inspire you to try something in your own team. 
 
-Now what you decide to try is up to you but there is a idea that originates from Extreme Programming that helped Mob Programming get discovered that will help you discover your teams brilliance. Is called turning up the good. 
+Now what you decide to try is up to you but there is a idea that originates from Extreme Programming that led to Mob Programming being discovered. The same thing will help you discover your teams brilliance. Is called turning up the good. 
 
-We often focus and get stuck on the bad stuff. Instead if we focus on the good stuff and how to turn that up, there is a great advantage to that. And at it's core that is really how Mob Programming got discovered and what we should be looking out for when we develop software. What are the good things that we can make better.
+We often focus and get stuck on the bad stuff. Instead, if we focus on the good stuff and how to turn that up, there is a great advantage to it. And at it's core that is really how Mob Programming got discovered and what we should be looking for when we develop software. What are the good things that we can make better.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -29,9 +29,7 @@ So with that said, let's tackle what Mob Programming is.
 
 Mob Programming is when three or more people work together to solve a problem at the same computer.
 
-It is a practice that companies all over the world are adopting. 
-
-As I've learn't more about the practice I've discovered that teams all over the world are doing Mob Programming. 
+As I've learn't more about Mob Programming I've discovered that teams all over the world are doing it. 
 
 {Show mobbing around the world slides}
 
@@ -41,9 +39,11 @@ As I've learn't more about the practice I've discovered that teams all over the 
 
 So what does Mob Programming look like?
 
-Well, it's a thing in the Mob Programming community for people to do a time lapse video of them mobbing - and it just so happens I did one of my previous team mobbing for a day.
+Well, it's a thing in the Mob Programming community for people to do a time lapse video of them mobbing - and it just so happens that about a year ago I did one of my previous team mobbing for a day.
 
-So here we are just after our stand up, what you don't see in this video is that we have a large 60" screen in front of us with a smaller monitor on the left with a clock counting down ten minutes. As we work there is in general between 3 & 5 of us at the mobbing station at any one time with 1 person at the keyboard. Whenever the timer reaches zero the keyboard is rotated to another person in the mob. 
+{ Start the video }
+
+So here we are just after our stand up at our mobbing station, what you don't see in this video is that we have a large 60" screen in front of us with a smaller monitor on the left with a clock counting down ten minutes. As we work there is in general between 3 & 5 of us at the mobbing station at any one time with 1 person at the keyboard. Whenever the timer reaches zero the keyboard is rotated to another person in the mob. 
 
 We keep a range of keyboards available so that when it is your turn to be the typist, you are comfortable typing.
 
@@ -132,24 +132,26 @@ At its essence what you are trying to do is communicate in a meaningful way. Don
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-So now that I've explained the two roles in Mob Programming let's talk about why a team would want to work this way. And for this I'm going to need some audience participation. 
+# Why would a team work this way
 
-What are some of the benefits you can think of that a team would get from working this way?
+So now that I've explained the two roles in Mob Programming let's talk about why a team would want to work this way. And for this I'm going to need your participation. 
+
+Why would a team work this way at the same computer?
 
 { Field questions from the audience }
 
-These are all great idea's - I've put together my own list of things I've found happened when we worked this way.
+These are all great idea's - ultimately the team works this way because they want to work this way. Forcing a team to work a certain way without them wanting to would be self defeating. A team has got to have that desire to collaborate and try it. This is something they largely pull on themselves.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
+# The productivity question
 
-# No merge problems
+So the most common question I get when I explain how Mob Programming works is the productivity question. How can one be productive with 4 people at one computer - surely that means you have increased the cost of developing software by 4 times. Typically this question is asked by those managing.
 
-We have almost no merge problems, because we are working on one thing at a time - it's a natural one piece flow if I use lean terminology.
+I would like to tackle that question by asking managers how they believe they can be productive sitting in a meeting with 4 other people, which they do all the time. Now I'm a manager, so I understand this is an important question - productivity is important. 
 
-# Productivity
 
-How can you be productive with 5 people at 1 computer? Now the first thing I ask a manager is how can you be productive sitting in a meeting with 5 people, which they do all the time. Now I'm a manager, so I understand this stuff - we want to know how productive people can be. Now initially I didn't know how we could be productive - I just knew we were. After doing this for almost two years I have a few ideas. It comes fundamentally to what programming is - what is programming?
+Now initially I didn't know how we could be productive - I just knew we were. After doing this for almost two years I have a few ideas. It comes fundamentally to what programming is - what is programming?
 
 Is it typing?
 Ultimately it is thinking. Programming is about the code you didn't write.
