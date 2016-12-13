@@ -8,11 +8,11 @@ Today I'm going to spend a few minutes on what it is and how we do it; and then 
 
 How many of you here have done Mob Programming before? Wonderful, I would love to catch up with you after the session to find out your experiences.
 
-So, I'm going to start off this session with a quote I stole from Woody's talk on Mob Programming.
+I'm going to start off this session with a quote I stole from Woody's talk on Mob Programming.
 
 > The value of another's experience is to give us hope, not to tell us how or whether to proceeed - Peter Block.
 
-This is really important. I'm not hear to tell you how to do something, or whether you should do Mob Programming. I'm here to expose you to the idea. My hope is that in sharing our experiences with you, it will inspire you to try something in your own teams. I really want to get that to sink.
+I really want this to sink in - this is really important. I'm not hear to tell you that you need to do Mob Programming or how you should do it. That is up to you. Why I am here is to expose you to the idea. My hope is that in sharing my experiences with you, it will inspire you to try something in your own teams. I'm here to share with you what has worked for us, so that if you decide to try this out you have a hope that it has worked for others.
 
 # What is Mob Programming
 
