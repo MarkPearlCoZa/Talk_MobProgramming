@@ -175,13 +175,16 @@ When Mob Programming because there are more people available in the mob you have
 
 ### Defects in Production
 
-So I want to talk about software quality. Again this is a big topic that we could spend a substantial time on. Pretty much every study you will come across will tell you that defects detected during development are significantly less expensive to fix than once they get to production. Now when, you don't see the cost of defects because when you think of how long it takes 
+So I want to talk about software quality. Again this is a big topic that we could spend a substantial time on. I would like to talk on one aspect of it. 
 
-Mob Programming substantially reduces your defect rate. Because you have more eyes on the code and more diversity, the robustness of the code being written is higher. 
+Pretty much every study you will come across will tell you that defects detected during development are significantly less expensive to fix than once they get to production. Now as developers we often forget about the time things take after we have initially developed them.
+
+My experience with Mob Programming is that it substantially reduces your defect rate. This makes sense, you have more eyes on the code and more diversity so the robustness of the code being written is extremely. 
+
+When I write code on my own, you get the best and worst of everything I write. It's then up to activities like code reviews to detect
 
 Technical Debt Free - when a story comes in we take them one at a time, and the whole team sees it - we scrutinize it. When I write code alone, the very best of what I do and the very worst of what I do get's into the code. When I work as a Mob, the very best of what I do get's in the code, and the very worst of what I doesn't. We can smell out the bad stuff. 
 
-We identifiy patterns easier - because someone will recognize the pattern, we identify DRY. The code get's cleaner. We have the technical debt version, and the technical debt free version. 
 
 Bugs decrease rapidly. It's a very high quality way of working.
 
