@@ -171,39 +171,64 @@ You have started on a piece of work and realize you need to know some informatio
 
 When Mob Programming because there are more people available in the mob you have more information at hand. Remember that work we did a few months ago on that UI thingy? Not a chance, but Igor sitting next to you does and remembers where it is in the code base. Darren can remember a discussion you missed about the item you are working on and reminds you to check out something on the wiki. Collectively you have a mob memory that is far superior to your individual memory.
 
-> If we are not able to answer our own questions, then we are missing someone in the mob
+> If you are not able to answer our own questions, then we are missing someone in the mob
+
+To share an experience I had that illustrates this, we were working on a project and we needed some business rules. This was when we had just started Mob Programming. We booked some time to meet with the person that had that knowledge - they met us at our team area expecting a traditional meeting, after a few minutes we realized that there was quite a bit we needed to know so we moved to our mob station, opened up the code and showed what we had - they walked us through the scenario's we were missing - it took about an hour at which point we not only had the information we needed, we had implemented a working solution and pushed through to production. 
+
+Before that, we would have scheduled a meeting with the person, asked the questions we thought we needed answers for, then closed the meeting and continued with the work only to realize we missed one or two things, which would require additional meetings or communication which would require getting more time with that person and in past experience something like that could go on for days.
+
+Reducing the amount of information you have to wait for solves a lot of problems but it is just one of the many benefits we've gotten from Mob Programming.
 
 ### Defects in Production
 
-So I want to talk about software quality. Again this is a big topic that we could spend a substantial time on. I would like to talk on one aspect of it. 
+Another benefit we've gotten from Mob Programming that has had a direct impact on our productivity is software quality. Again this is a big topic that we could spend a substantial time on. I would like to talk on one aspect of it. 
 
-Pretty much every study you will come across will tell you that defects detected during development are significantly less expensive to fix than once they get to production. Now as developers we often forget about the time things take after we have initially developed them.
+I think for some teams when you take initial developer hours into considration and compare the time spent to solve a problem on your own compared to solving it in a mob, it takes longer as a mob. So why do I still think we are being more productive when Mob Programming? 
 
-My experience with Mob Programming is that it substantially reduces your defect rate. This makes sense, you have more eyes on the code and more diversity so the robustness of the code being written is extremely. 
+One reason is pretty much every study you will come across will tell you that defects detected during development are significantly less expensive to fix than once they get to production. My experience with Mob Programming is that it substantially reduces your defect rate. This makes sense.
 
-When I write code on my own, you get the best and worst of everything I write. It's then up to activities like code reviews to detect
+When I write code on my own, the very best of what I do and the very worst of what I do gets into the code. 
+When a group of people mob together, you get the best of everyone into all the code. The worst of everyone get's left out. 
+In the XP world we talk about the principle of diversity which leads to more robust solutions.
 
-Technical Debt Free - when a story comes in we take them one at a time, and the whole team sees it - we scrutinize it. When I write code alone, the very best of what I do and the very worst of what I do get's into the code. When I work as a Mob, the very best of what I do get's in the code, and the very worst of what I doesn't. We can smell out the bad stuff. 
+> We get the best of everyone into all the code
 
+It's only when you start taking the total end to end cycle of software into consideration that Mob Programming becomes significantly faster.
 
-Bugs decrease rapidly. It's a very high quality way of working.
+So I've just tackled two aspects of productivity related to Mob Programming. There are numerous others but for the sake of time I need to spend sometime on other things we have observed while mobbing.
 
-When a bug report comes in, and you have 3 different solutions, often the bug only get's sorted in one of the solutions - the other two bugs remain undetected. 
-When we have a cleaner pattern and a bug comes in, we apply it to all three things.
+---------------------------------------------------------------------------------------------------------------------------------
 
-# Meetings
+# Isn't this just pair programming?
 
-The funny thing about meetings is we share information we have, we make decisions, assign some work and then everyone goes on their own. We got aligned for a minute and then everyone get's disalinged. So people will look at Mob Programming and say, that's just a meeting - it's a working meeting.
+So, another question I get is, isn't this just the same as pair programming. Do I not get all the benefits from Mob Programming in pair programming?
 
-# Environment of Continous Learning
+The answer for me is that Mob programming is an evolutionary step forward from pair programming, and I would argue that there are at least two significant advantages that make Mob Programming easier than pair programming. 
 
-Continous learning happens at some many levels. You are learning shortcuts, you are learning language things, you are learning about the business. There are many many advantages to this. The knowledge get's shared across.
+Fristly, in my experience pair programming can be more confrontational. Have you ever observed two programmers get into a discussion about what's the best framework, or the best text editor, or how to name something! It can get really heated.
+
+When these types of discussions emerge in Mob Programming the power of the mob steps in. It's no longer you vs. me, rather it's as a group we think this is the best way to go. That makes it a lot easier to move on.
+
+Secondly, compared with pair programming, the flow of the mob is better. When you are pairing and someone get's a phone call, or needs to go to a meeting or has some sort of disruption - the pair stops. With mobs, these interruptions are significantly decreased. The group can continue with people leaving and re-joining organically.
+
+So don't get me wrong - pair programming is good and is more than appropriate in certain circumstances. In fact, I would argue that if we had wide spread availability of large screens and projectors when pair programming first started, the extreme programming world would probably have ended up with Mob Programming. 
+
+This opens up an interesting thought - as we see innovation in virtual reality headsets and speed of networks, what is waiting for us in the next ten years in this area? 
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Now before I end I want to share some learnings i've gained as we have done Mob Programming
+
+# Ergonomics & working environment matter
+
+Ergonomics & you working environment matter. You need space to effectively mob. For instance, our mob station that we use right now is not ideal. It feels cramped. If you look at our picture people are a bit too close to each other. The table is a bit too small. I've worked in teams where we had space and it has a large impact on how well you can adopt this practice.
+
+Does that mean if you don't have the space you cannot mob? No, you can still make it work with smaller spaces, but you should be looking at adjusting your work environment if you decide to make this a long term practice.
 
 # Exposed 
 
 A warning, you will feel exposed with this type of work. If you cannot feel comfortable with someone else in front of the keyboard you cannot do that. It will be a problem for some people. You have tobe able to work this way.
 
-# Pay attention to ergonomics
 
 # Relaxed & sustainable
 
