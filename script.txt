@@ -140,22 +140,25 @@ So those are the two roles. They are simple, yet challenging. If you get them ri
 
 So the most common question I get when I explain how Mob Programming works is the productivity question. How can one be productive this way - surely if you have so many people working on one thing together you have massively increased the cost of developing software while decreasing productiivity? 
 
-Measuring productivity of software developers is hard. 
+Measuring productivity of software developers is hard. I love this quote by Russell Ackoff. 
 
 > Managers who don't know how to measure what they want settle for wanting what they can measure - Russell Ackoff
 
-I love this quote by Russell Ackoff. Most of the important things related to developer productivity are difficult to measure and so because we can't effectively measure them we pick easier things to measure, and soon because we are measuring these things we begin to think the wrong things are valuable and that they are an indicator of productivity.
+Most of the important things related to developer productivity are difficult to measure and so because we can't effectively measure them we pick easier things to measure, and soon because we are measuring these things we begin to think the wrong things are valuable and that they are an indicator of productivity.
 
 Let me share a quick experience a friend of mine had which I think polarizes this. He was working on a project that had slipped well behind schedule and was unfortunate enough to sit next to the project manager. After one of the many frequent status updates of 'how they were progressing' on the work the project manager turned to him while he was sitting at his desk and pleaded "Can you not just type faster". 
 
-Well, we know that measuring developer productivity by how fast someone types is not an effective measure. We also know things like counting the number of lines of code written is not any good either. 
-When I started Mob Programming as a team we measured things released into production - unforutnately I don't have those metrics to share today but I was sent a similar measurement by a colleague of another team that started Mob Programming - just looking at the lines you can see at a glance when the team started Mobbing - all of a sudden the cycle time of work decreased. 
+Well, we know that measuring developer productivity by how fast someone types is not an effective. We also know things like counting the number of lines of code written is not any good indicator either. 
 
-Prior to Mob Programming I've actively worked on decreasing work in progress limits in teams with varying levels of success - when we started Mob Programming we threw away forced WIP limits - after a few months I remember looking up at the board and realizing that we were naturally gravatating towards one or two items in progress for the entire team. That was an eye opener for me. 
+When I started Mob Programming as a team we measured things released into production - unforutnately I don't have those metrics to share today but I was sent a similar measurement by a colleague of another team that started Mob Programming - just looking at the lines you can see at a glance when the team started Mobbing - all of a sudden the cycle time of work decreased. This is interesting.
+
+Prior to Mob Programming I was in a team that used Kanban. A big part of Kanban is limiting work in progress. We actively tried decreasing work in progress with limited levels of success. In a team of 6 developers we typically had 7 or 8 things on the go at any one time - and we actively paired.
+
+When we started Mob Programming we threw away forced WIP limits - after a few months I remember looking up at the board and being astonished that we were naturally gravatating towards one or two items in progress for the entire team. That was an eye opener for me. 
 
 Now, I would even argue that measuring how many things that have been completed during a certain period of time isn't a great measure for productivity. Does it matter if we are busy but are not working on the right things? Measuring productivity is hard.  
 
-So I like this quote from Peter Block.
+I like this quote from Peter Block.
 
 > Transformation comes more from pursuing profound questions than seeking profound answers - Peter Block
 
@@ -165,21 +168,27 @@ Does anyone have any ideas or personal favorties?
 
 { Take answers from the audience }
 
-There are a number of things that destroy developer productivity. Many of these things became non-issues when we started Mobbing. Let's me illustrate with Incomplete Information.
+Thank you - so it turns out there are a number of things that destroy developer productivity. I've made a list of things that I've encountered in my own development and interestingly many of these things became non-issues when we started Mob Programming. 
 
-> Stop starting, and start finishing
+Let's take Incomplete Information.
 
 ### Waiting for information
 
-You have started on a piece of work and realize you need to know some information. Now the person that has that information is busy on something else or isn't available, so you wait for them to be available. To not be idle you start another piece of work. Now you have two things that you are working on. The irony of it is you have introduced context switches for yourself and the person you need to speak to. Indications are that context switches can cost you anywhere from 10 minutes upwards so you only need a handful of these a day to loose a large portion of your day on just switching thoughts.
+You have started on a piece of work and realize you need to know some information before you can continue. Now the person that has that information is busy on something else or isn't available, so you wait for them to be available. To not be idle you start another piece of work. Now you have two things that you are working on. The irony of it is you have introduced context switches for yourself and the person you need to speak to. 
 
-When Mob Programming because there are more people available in the mob you have more information at hand. Remember that work we did a few months ago on that UI thingy? Not a chance, but Igor sitting next to you does and remembers where it is in the code base. Darren can remember a discussion you missed about the item you are working on and reminds you to check out something on the wiki. Collectively you have a mob memory that is far superior to your individual memory.
+Indications are that context switches can cost you anywhere from 10 minutes upwards so you only need a handful of these a day to loose a large portion of your day on just switching thoughts.
+
+When Mob Programming because there are more people available in the mob you have more information at hand. 
+
+Remember that work we did a few months ago on that UI thingy? Not a chance, but Igor sitting next to you does and remembers where it is in the code base. Darren can remember a discussion you missed about the item you are working on and reminds you to check out something on the wiki. Collectively you have a mob memory that is far superior to your individual memory. And the rule of thumb in a mob is.
 
 > If you are not able to answer our own questions, then we are missing someone in the mob
 
-To share an experience I had that illustrates this, we were working on a project and we needed some business rules. This was when we had just started Mob Programming. We booked some time to meet with the person that had that knowledge - they met us at our team area expecting a traditional meeting, after a few minutes we realized that there was quite a bit we needed to know so we moved to our mob station, opened up the code and showed what we had - they walked us through the scenario's we were missing - it took about an hour at which point we not only had the information we needed, we had implemented a working solution and pushed through to production. 
+To share an experience I had that illustrates this, we were working on a project and we needed some business rules. This was when we had just started Mob Programming. We booked some time to meet with the person that had that knowledge.
 
-Before that, we would have scheduled a meeting with the person, asked the questions we thought we needed answers for, then closed the meeting and continued with the work only to realize we missed one or two things, which would require additional meetings or communication which would require getting more time with that person and in past experience something like that could go on for days.
+Now in the past we would have scheduled a meeting with the person, asked the questions we thought we needed answers for, then closed the meeting and continued with the work only to realize we missed one or two things, which would require additional meetings or communication which would require getting more time with that person and in past experience something like that could go on for days.
+
+ In this instance we met at our mob station with the person who was a business person - let me highlight this, they did not understand code AND that didn't seem to be a problem. We opened up to the test scenairo's and showed what we had and what results we were getting - they quickly walked us through the scenario's we were missing - it took about an hour at which point we not only had the information we needed, we had implemented a working solution and pushed through to production. What had previously taken days was now done in hours.
 
 Reducing the amount of information you have to wait for solves a lot of problems but it is just one of the many benefits we've gotten from Mob Programming.
 
@@ -193,13 +202,13 @@ One reason is pretty much every study you will come across will tell you that de
 
 When I write code on my own, the very best of what I do and the very worst of what I do gets into the code. 
 When a group of people mob together, you get the best of everyone into all the code. The worst of everyone get's left out. 
-In the XP world we talk about the principle of diversity which leads to more robust solutions.
+In the XP world we talk about the principle of diversity which leads to more robust solutions - I believe this principle is maginified in Mob Programming.
 
 > We get the best of everyone into all the code
 
-It's only when you start taking the total end to end cycle of software into consideration that Mob Programming becomes significantly faster.
+It's only when you start taking the total end to end cycle of software into consideration that Mob Programming becomes significantly faster. There is less going to back fix and debug and this ultimately makes you more productive.
 
-So I've just tackled two aspects of productivity related to Mob Programming. There are numerous others but for the sake of time I need to spend sometime on other things we have observed while mobbing.
+So I've just tackled two aspects of productivity related to Mob Programming. There are numerous others but for the sake of time I'm going to move on to other things I would like to cover in this session.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -209,15 +218,17 @@ So, another question I get is, isn't this just the same as pair programming. Do 
 
 The answer for me is that Mob programming is an evolutionary step forward from pair programming, and I would argue that there are at least two significant advantages that make Mob Programming easier than pair programming. 
 
-Fristly, in my experience pair programming can be more confrontational. Have you ever observed two programmers get into a discussion about what's the best framework, or the best text editor, or how to name something! It can get really heated.
+Fristly, in my experience pair programming can be more confrontational. Have you ever observed two programmers get into a discussion about what's the best UI framework is, or the best text editor, or how to name something, or whether January should be numerically represented as a zero or a one! It can get really heated.
 
-When these types of discussions emerge in Mob Programming the power of the mob steps in. It's no longer you vs. me, rather it's as a group we think this is the best way to go. That makes it a lot easier to move on.
+When these types of discussions emerge in Mob Programming the power of the mob steps in. It's no longer you vs. me, rather it's as a group we think this is the best way to go. That makes it a lot easier to move on and keeps emotions stable.
 
 Secondly, compared with pair programming, the flow of the mob is better. When you are pairing and someone get's a phone call, or needs to go to a meeting or has some sort of disruption - the pair stops. With mobs, these interruptions are significantly decreased. The group can continue with people leaving and re-joining organically.
 
 So don't get me wrong - pair programming is good and is more than appropriate in certain circumstances. In fact, I would argue that if we had wide spread availability of large screens and projectors when pair programming first started, the extreme programming world would probably have ended up with Mob Programming. 
 
-This opens up an interesting thought - as we see innovation in virtual reality headsets and speed of networks, what is waiting for us in the next ten years in this area? 
+Now this opens up an interesting thought - as we see innovation in virtual reality headsets and speed of networks, what is waiting for us in the next ten years in this area? What's the next evolution of collaborative coding?
+
+> What's the next evolution of collaborative coding?
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -225,7 +236,9 @@ Now before I end I want to share some learnings i've gained as we have done Mob 
 
 # Ergonomics & working environment matter
 
-Ergonomics & you working environment matter. You need space to effectively mob. For instance, our mob station that we use right now is not ideal. It feels cramped. If you look at our picture people are a bit too close to each other. The table is a bit too small. I've worked in teams where we had space and it has a large impact on how well you can adopt this practice.
+I would like to briefly touch the topic of erognomics and you work environment. Ergonomics & you working environment matter. You need space to effectively mob. For instance, our mob station that we use right now is not ideal. It feels cramped. If you look at our picture people are a bit too close to each other. The table is a bit too small. This can lead to people feeling cramped or in your face. 
+
+I've worked in teams where we substantially more space and it has a large impact on how well you can adopt this practice.
 
 Does that mean if you don't have the space you cannot mob? 
 
@@ -235,18 +248,18 @@ No, you can still make it work with smaller spaces, but as you prove the practic
 
 # How many people can you have in a mob?
 
-In my experience I've found that found 4-5 people in a mob works well provided you have the right setup. In our current space, we are probably pushing it with 4 people - it get's cramped and people disengage when we reach 5. In my previous organization we reguarly had 5 people. 
+Next, I want to talk about how many people you can have in a mob. In my experience I've found that found 4-5 people in a mob works well provided you have the right setup. In our current space, we are probably pushing it with 4 people - it get's cramped and people disengage when we reach 5. In my previous organization we reguarly had 5 people and sometimes went up to 6.
 
-I've also spoken to teams that have scaled up to 8 people at once although I haven't been in a mob that large.
+I've also spoken to teams that have scaled up to 8 people at once although I haven't been in a mob that large but in general 4-5 people is effective and keeps the flow.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
 # You may feel exposed 
 
-Before I get to questions I quick  warning, you may feel exposed with this type of work. 
-If you cannot feel comfortable with someone else in front of the keyboard you this form of collaboration is not going to work for you. That said, I would argue that if you cannot work in highly collaborative environments you are significantly impacting your future growth opportunities creating software.
+Now before I end I want to give a quick warning, you may feel exposed with this type of work. 
+If you cannot feel comfortable with someone else in front of the keyboard and you explaining to them why they should do something this form of collaboration is going to be really hard. That said, I would argue that if you cannot work in highly collaborative environments you are significantly impacting your future growth opportunities creating software and maybe it is something worth investing in.
 
-In the last two years I've had an amazing journey with Mob Programming. I've had the priveldge of learning, doing and having fun developing software this way. I would really recommend this practice to teams that want to develop better software.
+For me, I've had an amazing journey for the last two years with Mob Programming. I've had the priveldge of learning, doing and having fun developing software this way. I would really recommend this practice to people and teams that want to develop better software.
 
 Thank you for being such a good audience. 
 
