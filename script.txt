@@ -132,33 +132,24 @@ At its essence what you are trying to do is communicate in a meaningful way. Don
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-# Why would a team work this way
-
-So now that I've explained the two roles in Mob Programming let's talk about why a team would want to work this way. And for this I'm going to need your participation. 
-
-Why would a team work this way having three or more people working on one thing at the same computer?
-
-{ Field questions from the audience }
-
-These are all great idea's - ultimately the team works this way because they want to work this way. Forcing a team to work a certain way without them wanting to would be self defeating. A team has got to have that desire to collaborate and try it. This is something they largely pull on themselves.
-
----------------------------------------------------------------------------------------------------------------------------------
-
 # The productivity question
 
 So the most common question I get when I explain how Mob Programming works is the productivity question. How can one be productive this way - surely if you have so many people working on one thing together you have massively increased the cost of developing software while decreasing productiivity? 
 
-So measuring productivity of software developers is hard. Let's start with a quote and a story.
+Measuring productivity of software developers is hard. 
 
-> Managers who don't know how to measure what they want settle for wanting what they can measure  - Russell Ackoff
+> Managers who don't know how to measure what they want settle for wanting what they can measure - Russell Ackoff
 
-I believe that most of the important things related to developer productivity are difficult to measure and so we pick easier things to measure, and those things become valuable and we think we have a measure on productivity.
+I love this quote by Russell Ackoff. Most of the important things related to developer productivity are difficult to measure and so because we can't effectively measure them we pick easier things to measure, and soon because we are measuring these things we begin to think the wrong things are valuable and that they are an indicator of productivity.
 
-Let me share a quick experience a friend of mine had. He was working on a project that had slipped well behind schedule and was unfortunate enough to sit next to the project manager. After one of the many frequent status updates of 'how they were progressing' on the work the project manager turned to him while he was sitting at his desk and pleaded "Can you not just type faster". 
+Let me share a quick experience a friend of mine had which I think polarizes this. He was working on a project that had slipped well behind schedule and was unfortunate enough to sit next to the project manager. After one of the many frequent status updates of 'how they were progressing' on the work the project manager turned to him while he was sitting at his desk and pleaded "Can you not just type faster". 
 
-Well, we know that measuring developer productivity by how fast someone types is not an effective measure. We also know things like counting the number of lines of code written is unfortunately not an effective. I would even argue that measuring how many things have been completed during a certain period of time isn't a great measure because does it matter if we are busy but are not working on the right things?
+Well, we know that measuring developer productivity by how fast someone types is not an effective measure. We also know things like counting the number of lines of code written is not any good either. 
+When I started Mob Programming as a team we measured things released into production - unforutnately I don't have those metrics to share today but I was sent a similar measurement by a colleague of another team that started Mob Programming - just looking at the lines you can see at a glance when the team started Mobbing - all of a sudden the cycle time of work decreased. 
 
-So when we started Mob Programming we didn't attempt to measure any of those things - we knew that at the end of each day we would come out of a mobbing session being exhausted and that was good enough for us. 
+Prior to Mob Programming I've actively worked on decreasing work in progress limits in teams with varying levels of success - when we started Mob Programming we threw away forced WIP limits - after a few months I remember looking up at the board and realizing that we were naturally gravatating towards one or two items in progress for the entire team. That was an eye opener for me. 
+
+Now, I would even argue that measuring how many things that have been completed during a certain period of time isn't a great measure for productivity. Does it matter if we are busy but are not working on the right things? Measuring productivity is hard.  
 
 So I like this quote from Peter Block.
 
