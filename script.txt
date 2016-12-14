@@ -223,43 +223,28 @@ Now before I end I want to share some learnings i've gained as we have done Mob 
 
 Ergonomics & you working environment matter. You need space to effectively mob. For instance, our mob station that we use right now is not ideal. It feels cramped. If you look at our picture people are a bit too close to each other. The table is a bit too small. I've worked in teams where we had space and it has a large impact on how well you can adopt this practice.
 
-Does that mean if you don't have the space you cannot mob? No, you can still make it work with smaller spaces, but you should be looking at adjusting your work environment if you decide to make this a long term practice.
+Does that mean if you don't have the space you cannot mob? 
 
-# Exposed 
+No, you can still make it work with smaller spaces, but as you prove the practice you should be looking at adjusting the physical environment to make it a sustainable practice.
 
-A warning, you will feel exposed with this type of work. If you cannot feel comfortable with someone else in front of the keyboard you cannot do that. It will be a problem for some people. You have tobe able to work this way.
+---------------------------------------------------------------------------------------------------------------------------------
 
+# How many people can you have in a mob?
 
-# Relaxed & sustainable
+In my experience I've found that found 4-5 people in a mob works well provided you have the right setup. In our current space, we are probably pushing it with 4 people - it get's cramped and people disengage when we reach 5. In my previous organization we reguarly had 5 people. 
 
-Be sure things stay relaxed and sustainable. If we don't feel we cannot contribute, settle back. We don't need to be the one contributing.
+I've also spoken to teams that have scaled up to 8 people at once although I haven't been in a mob that large.
 
-# What's the ideal number?
+---------------------------------------------------------------------------------------------------------------------------------
 
-I've found 4-5 people in our current mob works well.
+# You may feel exposed 
 
-# Do I recommend Mob Programming
+Before I get to questions I quick  warning, you may feel exposed with this type of work. 
+If you cannot feel comfortable with someone else in front of the keyboard you this form of collaboration is not going to work for you. That said, I would argue that if you cannot work in highly collaborative environments you are significantly impacting your future growth opportunities creating software.
 
-Absolutely, I would love to see people doing more of this. 
+In the last two years I've had an amazing journey with Mob Programming. I've had the priveldge of learning, doing and having fun developing software this way. I would really recommend this practice to teams that want to develop better software.
 
-
-# Get through the work rapidly
-
-# Challenges we face
-
-## Is this a slow way of developing software
-
-# Pay attention to what works and turn up the good
-
-If something is working well, then turn it up.
-
-## Space is an issue
-
-- our work environment does not cater for the space we need to mob. We need more of an open space with a larger table. I've noticed that in our current mob as we hit 4 people things start to become cramped. This was not an issue with my previous mob where we could comfortably mob with 5 people.
-
-## I want to work with others on my own terms
-
-That's selfish - do you email people - that's communication.
+Thank you for being such a good audience. 
 
 ## References
 
