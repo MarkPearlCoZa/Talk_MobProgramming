@@ -171,11 +171,11 @@ You have started on a piece of work and realize you need to know some informatio
 
 When Mob Programming because there are more people available in the mob you have more information at hand. Remember that work we did a few months ago on that UI thingy? Not a chance, but Igor sitting next to you does and remembers where it is in the code base. Darren can remember a discussion you missed about the item you are working on and reminds you to check out something on the wiki. Collectively you have a mob memory that is far superior to your individual memory.
 
+> If we are not able to answer our own questions, then we are missing someone in the mob
+
 ### Defects in Production
 
-
 So I want to talk about software quality. Again this is a big topic that we could spend a substantial time on. Pretty much every study you will come across will tell you that defects detected during development are significantly less expensive to fix than once they get to production. Now when, you don't see the cost of defects because when you think of how long it takes 
-
 
 Mob Programming substantially reduces your defect rate. Because you have more eyes on the code and more diversity, the robustness of the code being written is higher. 
 
@@ -214,9 +214,6 @@ I've found 4-5 people in our current mob works well.
 
 Absolutely, I would love to see people doing more of this. 
 
-# Isn't this an expensive way of creating software
-
-# If we are not able to answer our own questions, then we are missing someone
 
 # Get through the work rapidly
 
