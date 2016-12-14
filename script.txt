@@ -161,44 +161,23 @@ Does anyone have any ideas or personal favorties?
 
 { Take answers from the audience }
 
-I'm going to cover two of these things in detail. What we noticed is a lot of these things faded away. We didn't look to remove these problems, but they were side effects of how we worked.
-
-## Working well as a team
-
-If you have ever played sports and are working in a team, you set everyone else up for success.
-
-## Communication Problems
-
-I am going to cover one aspect of communication problems that I have to limit it to just one. 
-
-### Question Que Time
-
-You have a piece of work which is waiting to be worked on. It's the waiting time that we are talking about. This is the amount of time that we must wait to get an answer to a question that is blocking us. While we wait we have to context switch to someonething else while we are waiting. 
-
-<Value stream map>
-
-We can map anything against the value part. 
-
-So what's the ideal queue time? Zero, none - we have a green bar going across the time. 
-What if we had a two minute wait, you are going to loose about 15 minutes a day.
-What if we have a ten minute wait, 
-What if we have a one hour wait
-
-How do we typically solve this? If we have something blocked what do we do? We multi task - so now what do we see, we see this beautiful bar of always being ready but we are hiding the red bar of not being able to progress. This is the thing, we are dealing with a symptom - the problem is we are not getting answers to our questions in a timely manner. So we are baiscally trying to solve a queing problem but we are introducing an inventory problem. 
+There are a number of things that destroy developer productivity. Many of these things became non-issues when we started Mobbing. Let's me illustrate with Incomplete Information.
 
 > Stop starting, and start finishing
 
-So how do we solve this? I don't know, we didn't solve it - it faded away. We seemed to have fewer blocking questions. In Mob Programming we are there to answer our questions all the time. We have a zero queue time.
+### Waiting for information
 
-Something funny with Mob Programming was if our product owners stayed close to us, they would get their work really quickly. 
+You have started on a piece of work and realize you need to know some information. Now the person that has that information is busy on something else or isn't available, so you wait for them to be available. To not be idle you start another piece of work. Now you have two things that you are working on. The irony of it is you have introduced context switches for yourself and the person you need to speak to. Indications are that context switches can cost you anywhere from 10 minutes upwards so you only need a handful of these a day to loose a large portion of your day on just switching thoughts.
 
-Work in progress goes to one
+When Mob Programming because there are more people available in the mob you have more information at hand. Remember that work we did a few months ago on that UI thingy? Not a chance, but Igor sitting next to you does and remembers where it is in the code base. Darren can remember a discussion you missed about the item you are working on and reminds you to check out something on the wiki. Collectively you have a mob memory that is far superior to your individual memory.
 
-This is an automatic one piece flow. Work in progress naturally goes to one. I've been chasing work in progress limits all the time. When we started Mob Programming wip gravitated to one.
+### Defects in Production
 
-## Technical Debt
 
-So I want to talk about Technical Debt, and again there are too many technical debt things to talk about so I'm going to pick one thing. We have three similar problems, and three developers take them on individually. What happens - you get three different solutions to the problem. It's hard to see a pattern if you don't see more than one of something. You have to see a number of them.
+So I want to talk about software quality. Again this is a big topic that we could spend a substantial time on. Pretty much every study you will come across will tell you that defects detected during development are significantly less expensive to fix than once they get to production. Now when, you don't see the cost of defects because when you think of how long it takes 
+
+
+Mob Programming substantially reduces your defect rate. Because you have more eyes on the code and more diversity, the robustness of the code being written is higher. 
 
 Technical Debt Free - when a story comes in we take them one at a time, and the whole team sees it - we scrutinize it. When I write code alone, the very best of what I do and the very worst of what I do get's into the code. When I work as a Mob, the very best of what I do get's in the code, and the very worst of what I doesn't. We can smell out the bad stuff. 
 
