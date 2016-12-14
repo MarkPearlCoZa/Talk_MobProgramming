@@ -59,7 +59,7 @@ People leave as they have meetings or phone calls to make and them pretty much s
 
 What we have learn't is that if someone leaves the mob, the best way for them to catch up when they re-join is not to ask what happened while they were gone. Instead it's way more effective if they become the typist next. This falls into the roles we have in mob programming - something I will talk about shortly.
 
-So I think you have have enough of an idea of what Mob Programming looks like in the wild. Notice that the most important thing was worked on the whole day moving closer and closer to completion. Also it is very active - and while a video does not convey this, by the end everybody in that mob was exhausted.
+So I think you have have enough of an idea of what Mob Programming looks like in the wild. Notice that the most important thing was worked on the whole day moving closer and closer to completion. Also it is very active - and while a video does not convey this, by the end of the day everybody in that mob was exhausted.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -84,21 +84,21 @@ As the typist, all you need to be able to do is:
 * Trust the mob  
 * Become comfortable working with an incomplete understanding  
 
-Pressing keys on a keyboard is easy and requires little explanation. Trusting the mob and working with an incomplete understanding requires a little more explanation.
+Pressing keys on a keyboard is easy and requires little explanation. Trusting the mob and working with an incomplete understanding is a lot harder.
 
 ### Trust the mob
 
-When you are the typist, trust that the rest of the mob knows what they are telling you. If you don't understand **WHAT** they are asking you to do, ask for clarification on what the next step is. If you don't understand **WHY** they are telling you something don't worry about it until you've finished the method or section of code. The right time to discuss and challenge design decisions is after the code is out of their heads and in the editor.
+Lets talk about trusting the mob. When you are the typist, trust that the rest of the mob knows what they are telling you. If you don't understand **WHAT** they are asking you to do, ask for clarification on what the next step is. If you don't understand **WHY** they are telling you something don't worry about it until you've finished the method or section of code. The right time to discuss and challenge design decisions is after the code is out of their heads and in the editor.
 
 ### Become comfortable working with an incomplete understanding
 
 Even if you trust the mob, members of the mob might not be comfortable communicating to you in this style. They might try and explain everything they have done up till then to you before they start giving you useful directions - this slows things down, and depending on your knowledge of the system, can take hours or even days. 
 
-Rather than getting a complete understanding before you start work, encourage the mob to start solving the problem at hand - you will gain context as you type. You do not need a complete understand to be an effective typist. 
+What I've found is that instead of getting a complete understanding before you start work, encourage the mob to start solving the problem at hand - you will gain context as you type. You do not need a complete understand to be an effective typist. 
 
 ### What if you have an idea you want to implement
 
-You have an idea you think is worth implementing - Great! Let the mob know, ask if someone can take your place as typist while you communicate the idea. The person taking the keyboard becomes the typist and you become part of the rest of the mob.  
+What if you have an idea you want to implement? Great! when that happens you let the mob know and swap out of the typist role with someone else. The person taking the keyboard becomes the typist and you become part of the rest of the mob.  
 
 --------------------------
 
@@ -114,21 +114,25 @@ As someone who is not the typist but still part of the mob you have two main job
 As part of the rest of the mob, essentially you are part of the problem solving team. It's your job to look for things the typist still needs to do. 
 The key is that while you may see many angles and approaches as a mob, you should be helping the typist to only focus on one thing.
 
-One of the challenges many teams new to Mob Programming face is working in close contact with the same people all day, every day. For you to be able to do this for any extended period of time you need to figure out a protocol or some way to work. There are many different protocols to do this, I find the protocol that 'chief' discoverer of Mob Programming has is the most effective. And it goes like this... 
+One of the challenges many teams new to Mob Programming face is working in close contact with the same people all day, every day. For you to be able to do this for any extended period of time you need to figure out a protocol or some way to work. 
+
+There are many different protocols to do this, I find the protocol that 'Woody Zuil' has is really effective. And it goes like this... 
 
 > You should always treat people with Kindness, Consideration & Respect > Woody Zuil
 
 If we are going to get stuff done, we need to interact well. We have got to figure out how to do that and it's a challenge because we are all different. I've found that if you treat someone with Kindness, Consideration & Respect it makes it a lot easier for people to work together.
 
-Now all three of these attributes are important but I would like to spend a bit of time on the attribute of consideration. Consideration is about considering the other person's point of view - it means we have to really focus on listening. And while it is extremely effective once you have the hang of it, sometimes getting started can prove to be a challenging because we are not used to working this way.
+Now all three of these attributes are important but I would like to spend a bit of time on the attribute of consideration. Consideration is about considering the other person's point of view - it means we have to really focus on listening. And while it is extremely effective once you have the hang of it, sometimes getting started can prove to be a challenge because we are not used to working this way.
 
 ### Talk at the highest level of abstraction the typist can understand
 
-Another very important part this role is that when directing the typist you should talk at the highest level of abstraction that the typist is able to understand at that moment. Depending on how long the typist has been with the mob, how in sync they are with what the mob is wanting them to do, and what their skill level is, the level of abstraction may change. 
+Another very important part of being part of the rest of the mob is that when directing the typist you should talk at the highest level of abstraction that the typist is able to understand at that moment. Depending on how long the typist has been with the mob, how in sync they are with what the mob is wanting them to do, and what their skill level is, the level of abstraction may change. 
 
 Finding the appropriate level of abstraction is part of the challenge of Mob Programming. When a mob is just starting out it typically uses lower levels of abstraction to direct the typist, once a mob begins to get its flow you will find higher levels of abstraction are used. 
 
 At its essence what you are trying to do is communicate in a meaningful way. Don't speak above the rest of the mobs understanding, and keep trying to increase the level of communication and understanding. 
+
+So those are the two roles. They are simple, yet challenging. If you get them right, you will have a ton fun Mob Programming. If you get them wrong, keep at it. Being able to collaborate effectively takes time and practice. So now that I've explained the roles - let's look tackle some common questions.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
