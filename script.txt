@@ -11,7 +11,7 @@ So how many of you here have done Mob Programming before?
 {If someone} - Wonderful, I would love to catch up with you after the session to find out your experiences.
 {If nobody} - Well this is exciting to have a new group.
 
-I'm going to start off with a quote that Woody Zuil uses when he speak about Mob Programming:
+Now before we get into the specifics let's start off with a quote that is often used when speaking about Mob Programming:
 
 > The value of another's experience is to give us hope, not to tell us how or whether to proceeed - Peter Block.
 
