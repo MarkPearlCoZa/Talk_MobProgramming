@@ -1,0 +1,3 @@
+Mark Pearl, a dev lead at MYOB, has offered to share some of the experiences his team has had over the last 6 months with Mob Programming. He'll cover the benefits, techniques they have used, and some of the challenges they’ve faced.
+
+For those not familiar with Mob Programming, it is a new software development technique where a team of developers works at one computer solving one problem.  It can be seen as an evolutionary step forward from Pair Programming - with it’s own set of challenges and benefits.
