@@ -1,8 +1,8 @@
-Hi everyone, I'm Mark Pearl, I'm excited to be here to share the experiences I've had over the last two years with Mob Programming with you.
+Hi everyone, I'm Mark Pearl, I'm a Dev Lead for one of our Auckland Practice Online teams at MYOB and I'm excited to be here to share with you the experiences I've had with Mob Programming.
 
-I want to start this session by sharing my first experience with Mob Programming which happened roughly two years ago. At the time I had travelled to the US to speak at a conference. Something I like to do when I travel is a thing called 'Team Tourism' - basically the idea behind Team Tourism is to spend time with a team other than your own to see how they work. I've found that if you invest just a little bit of our time in visiting other teams and seeing what they do you can learn amazing things that you can use in our own teams.
+I want to start this session by sharing how I was first introduced to Mob Programming - it happened roughly two years ago. At the time I had travelled to the US to speak at a regional agile conference. Something I like to do when I travel is a thing called 'Team Tourism' - basically the idea behind Team Tourism is to spend time with teams other than your own to see how they work in the hopes that you can learn new things that you can use in our own team.
 
-Now, in this instance I was lucky enough to go to a company called PluralSight. I was expecting at PluralSight to spend the day pair programming, instead when I arrived I was told that the team I was going to be with didn't pair - they mobbed. I had no clue what mobbing meant - I wasn't sure if we were going to beat someone up or what, but being a good South African I was up for anything. Well, I quickly learn't what Mob Programming was and I had such an amazing time with it that by the end of the day I was hooked. Since then I have used some variant of Mob Programming in all the teams I've been.
+Now, in this instance I was lucky enough spend a day at a company called PluralSight. I was expecting at PluralSight to pair program with someone, instead when I arrived I was told that the team I was going to be with didn't pair - they mobbed. I had no clue what mobbing meant but I was up for anything. Well, I had such an amazing time mobbing with these guys - I was productive within minutes and had an absolutely exhausting and enjoyable day. By the end of it I was hooked. Since then I have used some variant of Mob Programming in all the teams I've been with.
 
 So today I'm going to spend a few minutes on what Mob Programming is. You are going to get to see how a typical mob works; then, with the remainder of the time I'm going to tackle some of the big questions around Mob Programming as well as a few things we've learn't from doing it.
 
@@ -17,9 +17,7 @@ Now before we get into the specifics let's start off with a quote that is often 
 
 This is really important - I'm not hear to tell you that you need to do Mob Programming or how you should do it. I'm hear in the hope that in sharing my experiences with you it will inspire you to try something in your own team. 
 
-Now what you decide to try is up to you but there is a idea that originates from Extreme Programming that led to Mob Programming being discovered. The same thing will help you discover your teams brilliance. Is called turning up the good. 
-
-We often focus and get stuck on the bad stuff. Instead, if we focus on the good stuff and how to turn that up, there is a great advantage to it. And at it's core that is really how Mob Programming got discovered and what we should be looking for when we develop software. What are the good things that we can make better.
+Now what you decide to try is up to you but there is a mindset that originates from Extreme Programming that led to Mob Programming being discovered. The mindset is turning up the good. In XP turning up the good included having two people work together on one thing, building your solution multiple times a day to name a few - these things at that time were considered "extreme". I'm hoping that this session will inspire you to discover your teams brilliance, what good you can turn up.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -35,33 +33,6 @@ As I've learn't more about Mob Programming I've discovered that teams all over t
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-# What does Mob Programming look like
-
-So what does Mob Programming look like?
-
-Well, it's a thing in the Mob Programming community for people to do a time lapse video of them mobbing - and it just so happens that about a year ago I did one of my previous team mobbing for a day.
-
-{ Start the video }
-
-So here we are just after our stand up at our mobbing station, what you don't see in this video is that we have a large 60" screen in front of us with a smaller monitor on the left with a clock counting down ten minutes. As we work there is in general between 3 & 5 of us at the mobbing station at any one time with 1 person at the keyboard. Whenever the timer reaches zero the keyboard is rotated to another person in the mob. 
-
-We keep a range of keyboards available so that when it is your turn to be the typist, you are comfortable typing.
-
-Our work area allows people to visit, in this case a developer from another team passes by to say hello, happens to see what we are working on, and then later comes back with some info that we didn't know.
-
-You will also see us use a whiteboard to make notes on. We put things we want to come back to, or conversations we want to put on hold.
-
-In our layout our product owner would sit right next to the mob so that if we needed any information he was on call.
-
-Generally we would all take lunch at the same time. 
-
-People leave as they have meetings or phone calls to make and them pretty much seamlessly re-join the mob. 
-
-What we have learn't is that if someone leaves the mob, the best way for them to catch up when they re-join is not to ask what happened while they were gone. Instead it's way more effective if they become the typist next. This falls into the roles we have in mob programming - something I will talk about shortly.
-
-So I think you have have enough of an idea of what Mob Programming looks like in the wild. Notice that the most important thing was worked on the whole day moving closer and closer to completion. Also it is very active - and while a video does not convey this, by the end of the day everybody in that mob was exhausted.
-
----------------------------------------------------------------------------------------------------------------------------------
 
 # What are the roles in mob programming
 
@@ -133,6 +104,34 @@ Finding the appropriate level of abstraction is part of the challenge of Mob Pro
 At its essence what you are trying to do is communicate in a meaningful way. Don't speak above the rest of the mobs understanding, and keep trying to increase the level of communication and understanding. 
 
 So those are the two roles. They are simple, yet challenging. If you get them right, you will have a ton fun Mob Programming. If you get them wrong, keep at it. Being able to collaborate effectively takes time and practice. So now that I've explained the roles - let's look tackle some common questions.
+
+--------------------------
+
+# The mechanics of Mob Programming
+
+So what does Mob Programming look like?
+
+Well, it's a thing in the Mob Programming community for people to do a time lapse video of them mobbing - and it just so happens that about a year ago I did one of my previous team mobbing for a day.
+
+{ Start the video }
+
+So here we are just after our stand up at our mobbing station, what you don't see in this video is that we have a large 60" screen in front of us with a smaller monitor on the left with a clock counting down ten minutes. As we work there is in general between 3 & 5 of us at the mobbing station at any one time with 1 person at the keyboard. Whenever the timer reaches zero the keyboard is rotated to another person in the mob. 
+
+We keep a range of keyboards available so that when it is your turn to be the typist, you are comfortable typing.
+
+Our work area allows people to visit, in this case a developer from another team passes by to say hello, happens to see what we are working on, and then later comes back with some info that we didn't know.
+
+You will also see us use a whiteboard to make notes on. We put things we want to come back to, or conversations we want to put on hold.
+
+In our layout our product owner would sit right next to the mob so that if we needed any information he was on call.
+
+Generally we would all take lunch at the same time. 
+
+People leave as they have meetings or phone calls to make and them pretty much seamlessly re-join the mob. 
+
+What we have learn't is that if someone leaves the mob, the best way for them to catch up when they re-join is not to ask what happened while they were gone. Instead it's way more effective if they become the typist next. This falls into the roles we have in mob programming - something I will talk about shortly.
+
+So I think you have have enough of an idea of what Mob Programming looks like in the wild. Notice that the most important thing was worked on the whole day moving closer and closer to completion. Also it is very active - and while a video does not convey this, by the end of the day everybody in that mob was exhausted.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
