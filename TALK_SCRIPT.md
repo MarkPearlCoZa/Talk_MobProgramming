@@ -136,9 +136,15 @@ You will also see us use a whiteboard to make notes on. We put things we want to
 
 Generally we found when we mob we take lunch at the same time. People leave as they have meetings or phone calls to make and them pretty much seamlessly re-join the mob. 
 
-From experience we've learn't that when people re-join the mob it's disruptive to the mob's flow for us to re-explain what we are doing. Instead we've found it way more effective if they become the typist next and naturally get context while we work. 
+From experience we've learn't that when people re-join the mob it's disruptive to the mob's flow for us to re-explain what we did while they were away. Instead we've found it way more effective if they become the typist next and naturally get context while we work. 
 
-So I think you have have enough of an idea of what Mob Programming looks like in the wild. Notice that the most important thing was worked on the whole day moving closer and closer to completion. Also it is very active - and while a video does not convey this, by the end of the day everybody in that mob was exhausted.
+Now, in the time lapse video most of the time people are focussed at the screen. When we work this way I am generally exhausted by the end of the day.
+
+So, that is how a typical mob session looks.  
+
+--------------------------
+
+There are two variations to the standard approach I want to make mention of.
 
 --------------------------
 
