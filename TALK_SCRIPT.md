@@ -1,32 +1,34 @@
 God morning, welcome to this session of getting the best of everyone using Mob Programming.
 
-I would like to start off this session by sharing an experience I had 2 years ago while attending a conference in the US. Now when I travel I like to spend time doing a thing called Team Tourism. The idea behind Team Tourism is that there are companies all over the world that are doing pockets of brilliance, and if we just spend some time uncovering them and applying them to our own teams it can have a dramatic impact on how we do work.
+I would like to start off this session by sharing an experience I had 2 years ago while attending a conference in the US. Now when I travel I like to spend time doing a thing called Team Tourism. The idea behind Team Tourism is that there are companies all over the world that are doing pockets of brilliance, and if we just spend some time discovering them and applying them to our own teams it can have a dramatic impact on how we do work.
 
-Now, in this instance I was lucky enough spend a day at a company called PluralSight. I knew a bit about Pluralsight before I set this up and I had this expectation that they had a focus on Software Craftmanship and that I would pair up with somebody. So imagine my surprise when I arrived there on the day and the team that I was going to spend time with does not do pariing, they do this thing called Mob Programming. And while I had no clue what Mob Programming was at the time, I had an amazing day. What I experienced on that day was not just one of the most enjoyable days I had had as a software developer up to that point, but was also a unique way of tackling work. And that is what I'm going to talk about today.
+Now, in this instance I was lucky enough spend a day at a company called PluralSight. I knew a bit about Pluralsight before I set this up and I had this expectation that they had a focus on Software Craftmanship and that I would pair up with somebody. So imagine my surprise when I arrived there on the day and the team that I was going to spend time with does not do pariing, they do this thing called Mob Programming. And while I had no clue what Mob Programming was at the time, what I experienced on that day was not just a unique way of tackling work, but also one of the most enjoyable ways of learning and improving as a software developer. 
 
----------------------------------------------------------------------------------------------------------------------------------
+Today I'm going to share with you a bit about Mob Programming as well as some of the things we have learn't from working this way.
+
+--------------------------------
 
 # About Me
 
-By way of introduction, my name is Mark Pearl, I'm a Dev Lead for MYOB in Auckand. At MYOB my team maintains parts of MYOB's Practice Online System. If you find today's session interesting, I share many of these ideas and experiences on my Blog and on Twitter.
+By way of introduction, my name is Mark Pearl, I'm a Dev Lead for MYOB in Auckand. My team maintains parts of MYOB's Practice Online System. If you find today's session interesting, I share many of my ideas and experiences on my Blog and on Twitter.
 
-And I want to start off this session by talking about what I want you to come out with at the end. Peter Block sums this up well, he says the value of anothers experience is to give us home, not to tell us how or whether to proceed. 
+--------------------------------
+
+I want to start off this session by framing it with a quote from Peter Block which says the value of anothers experience is to give us hope, not to tell us how or whether to proceed. 
 
 I'm not here to tell you that you must do Mob Programming, or that this is the only way that it can be done. 
+I am here to give you hope that if you would like to try this way of working, it is possible; 
 
-Ultimately if this looks like a good idea that you would like to try, the purpose of this session is to give you hope that it is possible and to share with you how we have done it.
-
----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------
 
 # Outline of the session
 
-Now the outline of how this session is going to go as follows... 
+Now the outline of how this session is going to go is as follows... 
 
-We are going to start off just briefly looking into what is Mob Programming, and the roles and mechanics of the practice. 
-Then we are going to spend a little more of the time tackling some of the common questions that come up around mobbing. 
-Then finally I'm going to take you through some of the things we have learn' specifically in our team as we have applied this practice.
+We are going to start off by briefly looking into what Mob Programming is, I'll take you through the roles and mechanics of the practice. 
+Then I'm going to spend some time tackling common questions around Mob Programming as well as the things we have learn' specifically in our team as we have applied this practice.
 
----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------
 
 # What is Mob Programming
 
@@ -34,9 +36,11 @@ So what is Mob Programming?
 
 Mob Programming is when three or more people work together to solve a problem at a single computer.
 
+--------------------------------
+
 And while this may sound like a radical idea, there are companies all over the world that are seeing major benefits from doing Mob Programming in their teams - so it is not as radical as you may think.
 
----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------
 
 # What are the roles in mob programming
 
@@ -44,14 +48,7 @@ Before I can take you through the mechanics of Mob Programming I need to explain
 
 Mob Programming evolved from pair programming. In pair programming you have two roles - the driver and the navigator. While the driver has the keyboard and is coding, the navigator looks at the code from a higher level looking for areas that the driver is missing.
 
-The concept of driver and navigator bled into Mob Programming - I would like to change that, I don't think the metaphor of a driver and navigator works well when you have more than two people, and so I call the roles in Mob Programming the typist and the rest of th emob.
-
-> For an idea to go from someones head into the computer it must go through someone else's hands - Woody Zuill?
-
-In Mob Programming we only have two roles
-
-1. The typist
-2. The rest of the mob
+The concept of driver and navigator bled into Mob Programming - I would like to change that, I don't think the metaphor of a driver and navigator works well when you have more than two people, and so I prefer to label the roles in Mob Programming as the typist and the rest of the mob.
 
 --------------------------
 
@@ -59,89 +56,91 @@ In Mob Programming we only have two roles
 
 As the typist, all you need to be able to do is:
 
-* Press keys
-* Trust the mob  
-* Become comfortable working with an incomplete understanding  
+* Understand what the mob is asking you to do
+* Translate it to code
+* Become comfortable working with an incomplete understanding for short periods of time
 
-Pressing keys on a keyboard is easy and requires little explanation. Trusting the mob and working with an incomplete understanding is a lot harder.
+Understanding what the rest of the mob is asking you to do can be a challenge. Sometimes the mob won't be sure what they want, or will give you conflicting requests. At times like this you need to remain calm and ask for further clarification on what the next step is; help get the rest of the mob to a place where they have consensus.
 
-### Trust the mob
+Another important part of your role is to be comfortable working with an incomplete understanding of the solution for short periods of time. Sometimes you will have a good idea of where things are going; other times you will have no clue. During the times when you have no clue it is important that you soldier on and trust the rest of the mob. 
 
-Lets talk about trusting the mob. When you are the typist, trust that the rest of the mob knows what they are telling you. If you don't understand **WHAT** they are asking you to do, ask for clarification on what the next step is. If you don't understand **WHY** they are telling you something don't worry about it until you've finished the method or section of code. The right time to discuss and challenge design decisions is after the code is out of their heads and in the editor.
+As the typist, you should hold off prematurely challenging why you are being asked to do something by the rest of the mob. A good indication that you are prematurely challenging things is if you haven't translated it to code and typed it out yet. 
 
-### Become comfortable working with an incomplete understanding
+In my early days of mobbing, when I was the typist, I would challenge things before they had been translated to code. I found as a mob we would often have lengthy debates with little progress. After changing my approach to only challenging things after I had typed them out I noticed that the number of debates reduced significantly. Looking back, I suspect that when challenging prematurely one of two things was happening; we were probably saying the same thing but with different words and did not realize it because we couldn't see the code, or the approach the rest of the mob wanted me to take was appropriate and I was just not seeing it.
 
-Even if you trust the mob, members of the mob might not be comfortable communicating to you in this style. They might try and explain everything they have done up till then to you before they start giving you useful directions - this slows things down, and depending on your knowledge of the system, can take hours or even days. 
-
-What I've found is that instead of getting a complete understanding before you start work, encourage the mob to start solving the problem at hand - you will gain context as you type. You do not need a complete understand to be an effective typist. 
-
-### What if you have an idea you want to implement
-
-What if you have an idea you want to implement? Great! when that happens you let the mob know and swap out of the typist role with someone else. The person taking the keyboard becomes the typist and you become part of the rest of the mob.  
+Now, I mentioned that you should be comfortable working with an incomplete understanding of the solution for short periods of time. The phrase "short periods of time" is important. Once an idea has been expressed fully in code, if you still don't understand what's going on, get the rest of the mob to explain it to you. You need to do this because you will be part of the rest of the mob substantially more than you will be the typist. As part of the rest of the mob you need to understand what's going on to be able to add value and help solve the problem at hand - filling in the blanks sooner rather than later will help the mob be effective for the entire session.
 
 --------------------------
 
 ## The rest of the mob
 
-As someone who is not the typist but still part of the mob you have two main jobs:
+As someone who is not the typist but still part of the mob you have three main jobs:
 
-1) Help contribute to discovering what the next logical step is to solving the problem  
-2) When directing the typist, talk in the highest level of abstraction the typist can understand  
+1. Help discover what the next logical step is to solving the problem.  
+2. Talk at an appropriate level that everyone can understand.  
+3. Always try to increase the level of understanding in the mob.
 
-### Discovering what the next logical step is to solving the problem
+As part of the rest of the mob, you are part of the problem solving team; it's your job to look for things that still need to be done to solve the current problem; you do this working collaboratively with others in your mob.
 
-As part of the rest of the mob, essentially you are part of the problem solving team. It's your job to look for things the typist still needs to do. 
-The key is that while you may see many angles and approaches as a mob, you should be helping the typist to only focus on one thing.
+You will find that sometimes the mob will loose focus and unintentionally move to a new problem before solving the one at hand; it is part of your role to look out for this, if you notice things getting sidetracked, bring it to everyone's attention and then as a group decide what to do; do you park the current item and finish what you originally started, or does it make sense to tackle the second item first?
 
-One of the challenges many teams new to Mob Programming face is working in close contact with the same people all day, every day. For you to be able to do this for any extended period of time you need to figure out a protocol or some way to work. 
+> The key is that while you may see many angles and approaches, as a mob you should be trying to get consensus on what the next logical step is.  
 
-There are many different protocols to do this, I find the protocol that 'Woody Zuil' has is really effective. And it goes like this... 
+Another very important part of your role is to talk at an appropriate level that everyone can understand. For instance, when directing the typist you should talk at a level of abstraction that the typist is able to digest. Depending on how long the typist has been with the mob, how in sync they are with what the mob is wanting them to do, and what their skill level is, the level of abstraction may change. 
 
-> You should always treat people with Kindness, Consideration & Respect > Woody Zuil
+An example of this may be that you see a potential refactor to simplify the code by extracting a method. Asking the typist to extract the method may be a sufficient level of abstraction. If the typist looks at you with a blank stare, go to a lower level of abstraction - become a little more explicit - "highlight line 114 to 127 and then press ctrl+alt+m to extract method". 
 
-If we are going to get stuff done, we need to interact well. We have got to figure out how to do that and it's a challenge because we are all different. I've found that if you treat someone with Kindness, Consideration & Respect it makes it a lot easier for people to work together.
+Finding the appropriate level to talk at is part of the challenge of mobbing. I've noticed that when a mob is just starting out it typically uses lower levels of abstraction, once it begins to find a common understanding it seems to use higher levels of abstraction. 
 
-Now all three of these attributes are important but I would like to spend a bit of time on the attribute of consideration. Consideration is about considering the other person's point of view - it means we have to really focus on listening. And while it is extremely effective once you have the hang of it, sometimes getting started can prove to be a challenge because we are not used to working this way.
+While not understanding is most apparent when directing the typist, you should be mindful of everyone else who is part of the rest of the mob. If anyone in the mob is not understanding, look for safe opportunities to further explain. 
 
-### Talk at the highest level of abstraction the typist can understand
+On the flip side, if you are not understanding what is being said by someone in the mob have the courage to ask for it to be further explained. This falls in line with the third objective of always trying to increase the levels of understanding in the mob. 
 
-Another very important part of being part of the rest of the mob is that when directing the typist you should talk at the highest level of abstraction that the typist is able to understand at that moment. Depending on how long the typist has been with the mob, how in sync they are with what the mob is wanting them to do, and what their skill level is, the level of abstraction may change. 
-
-Finding the appropriate level of abstraction is part of the challenge of Mob Programming. When a mob is just starting out it typically uses lower levels of abstraction to direct the typist, once a mob begins to get its flow you will find higher levels of abstraction are used. 
-
-At its essence what you are trying to do is communicate in a meaningful way. Don't speak above the rest of the mobs understanding, and keep trying to increase the level of communication and understanding. 
-
-So those are the two roles. They are simple, yet challenging. If you get them right, you will have a ton fun Mob Programming. If you get them wrong, keep at it. Being able to collaborate effectively takes time and practice. So now that I've explained the roles - let's look tackle some common questions.
+Mob Programming is about a group of people doing things together and learning from each other. Talking at levels that others in the mob do not understand significantly impairs learning. Getting this right is a real challenge because we are all different. 
 
 --------------------------
 
+Woody Zuill, the father of Mob Programming, talks about a protocol he uses for working with others when he's in a mob, it's really simple..
+
+> You should always treat people with Kindness, Consideration & Respect 
+
+Now all three of these attributes are important but I would like to spend a bit of time on the attribute of consideration. Consideration is about considering the other person's point of view - it means we have to really focus on listening. And while it is extremely effective once you have the hang of it, sometimes getting started can prove to be a challenge because we are not used to working this way.
+
+Finding the appropriate level of abstraction is part of the challenge of Mob Programming. When a mob is just starting out it typically uses lower levels of abstraction to direct the typist, once a mob begins to get its flow you will find higher levels of abstraction are used. 
+
+So those are the two roles. They are simple, yet challenging. If you get them right, you will have a ton fun Mob Programming. If you get them wrong, keep at it. Being able to collaborate effectively takes time and practice. 
+
+--------------------------
+
+One other quote that I really like about Mob Programming comes from Llewellyn Falco. He has this rule that for an idea to go from someones head into the computer, it must go through someone's elses hands first.
+
 # The mechanics of Mob Programming
 
-So what does Mob Programming look like?
+So with this in mind, what does Mob Programming look like? Well, the honest truth is its different for different teams, but we found the following technique worked best when we started out. 
 
-Well, it's a thing in the Mob Programming community for people to do a time lapse video of them mobbing - and it just so happens that about a year ago I did one of my previous team mobbing for a day.
+--------------------------
 
-{ Start the video }
+First, someone in the mob starts off as the typist. They are in this role for a time boxed period of time - we found ten minutes works well for us and generally we will have a monitor with a dedicated timer counting down the interval. 
 
-So here we are just after our stand up at our mobbing station, what you don't see in this video is that we have a large 60" screen in front of us with a smaller monitor on the left with a clock counting down ten minutes. As we work there is in general between 3 & 5 of us at the mobbing station at any one time with 1 person at the keyboard. Whenever the timer reaches zero the keyboard is rotated to another person in the mob. 
+During these ten minutes the mob works together to make headway on the problem at hand. At the end of the ten minutes we rotate the typist role and repeat. It's as simple as that.
 
-We keep a range of keyboards available so that when it is your turn to be the typist, you are comfortable typing.
+How does this look like with real people?
 
-Our work area allows people to visit, in this case a developer from another team passes by to say hello, happens to see what we are working on, and then later comes back with some info that we didn't know.
+--------------------------
 
-You will also see us use a whiteboard to make notes on. We put things we want to come back to, or conversations we want to put on hold.
+I did a time lapsed recording of what a typical day of Mob Programming looked like when I was in my previous team. What you don't see in this video is that we have a large 60" screen in front of us with a smaller monitor to the left. As we work there is in general between 3 & 5 of us at the mobbing station at any one time with 1 person at the keyboard. 
 
-In our layout our product owner would sit right next to the mob so that if we needed any information he was on call.
+We rotate the typist role reguarly, and since we all had different preferences on keyboards, we kept a range of keyboards available at the mobbing station so that when it is your turn to be the typist, you are comfortable.
 
-Generally we would all take lunch at the same time. 
+You will also see us use a whiteboard to make notes on. We put things we want to come back to, or conversations we want to put on hold on the whiteboard.
 
-People leave as they have meetings or phone calls to make and them pretty much seamlessly re-join the mob. 
+Generally we found when we mob we take lunch at the same time. People leave as they have meetings or phone calls to make and them pretty much seamlessly re-join the mob. 
 
-What we have learn't is that if someone leaves the mob, the best way for them to catch up when they re-join is not to ask what happened while they were gone. Instead it's way more effective if they become the typist next. This falls into the roles we have in mob programming - something I will talk about shortly.
+From experience we've learn't that when people re-join the mob it's disruptive to the mob's flow for us to re-explain what we are doing. Instead we've found it way more effective if they become the typist next and naturally get context while we work. 
 
 So I think you have have enough of an idea of what Mob Programming looks like in the wild. Notice that the most important thing was worked on the whole day moving closer and closer to completion. Also it is very active - and while a video does not convey this, by the end of the day everybody in that mob was exhausted.
 
----------------------------------------------------------------------------------------------------------------------------------
+--------------------------
 
 # The productivity question
 
