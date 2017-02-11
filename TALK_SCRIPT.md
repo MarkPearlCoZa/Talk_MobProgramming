@@ -176,19 +176,13 @@ In general what we are trying to do as a group is default to collaboration. That
 
 So I've spent a bit of time talking about the various practices and techniques of mob programming. I want to take the conversation in a different direction and tackle the most common business question I get when I talk about Mob Programming. 
 
-Just the other day an accountant in the office was walking past our mob and in all honestly asked us "how can you justify working this way - surely you have just quadruppled costs?".To answer this it really boils down to how you measure developer productivity and measuring productivity of software developers is hard. 
+Just the other day an accountant in the office was walking past our mob and honestly asked us what I think many people are wondering - "how can we justify working this way - surely we have just significantly increased costs?". To answer this it really boils down to how you measure developer productivity and measuring productivity of software developers is hard. 
 
-Russell Ackoff, a well known organizational theorist said:
+Let me share a quick experience a friend of mine had which I think polarizes this. He was working on a project that had slipped well behind schedule. After one of the increasingly frequent status updates of how they were progressing the project manager turned to him and asked "Can you guys just not type faster?". 
 
-> Managers who don't know how to measure what they want settle for wanting what they can measure
+Well, we know that measuring developer productivity by how fast someone types is a warped concept of developer productivity. We also know things like hours worked or number of lines of code written or how busy you are are also naive approaches. Time to market can in many instances be gamed, and while measuring total financial at first glance seems like a good approach, in many businesses this is a lagging indicator that happens well after the work is done, and there are so many other things that can impact financial return other than the people developing the software.
 
-Most of the important things related to developer productivity are difficult to measure. Because we struggle to measure these things we pick easier things to measure, and soon because we are measuring these things we begin to think the wrong things are valuable and that they are an indicator of productivity.
-
-Let me share a quick experience a friend of mine had which I think polarizes this. He was working on a project that had slipped well behind schedule. He happened to sit next to the project manager and after one of the many frequent status updates of 'how they were progressing' on the work the project manager turned to him and asked "Can you just not type faster". 
-
-Well, we know that measuring developer productivity by how fast someone types is a warped concept of productivity. We also know things like  hours worked or number of lines of code written are also not good indicators.
-
-So are we more productive using Mob Progrmming?
+So then, if developer productivity is so hard to measure, how do we know if we are more productive with Mob Progrmming?
 
 I like this quote from Peter Block.
 
@@ -202,25 +196,73 @@ Does anyone have any ideas or personal favorties?
 
 Thank you - so it turns out there are a number of things that destroy developer productivity. I've made a list of things that I've encountered in my own development and interestingly many of these things became non-issues when we started Mob Programming. 
 
-When we started Mob Programming we threw away forced WIP limits - after a few months I remember looking up at the board and being astonished that we were naturally gravatating towards one or two items in progress for the entire team of 10 - that was an eye opener for me. 
+--------------------------
 
 #### Multi tasking
 
-In speaking to others that have used Mob Programming, a friend of mine sent a measurement he did of another team that started Mob Programming - just looking at the graph you can see at a glance when the team started Mobbing - all of a sudden the cycle time of work decreased. This is interesting.
+The first one I would like to tackle is the idea of multi-tasking. Studies show that as humans we are really bad at multi-tasking. In fact, when someone comes and interrupts you, it can cost you anywhere from 10 minutes upwards per interruption in loosing focus so you only need a handful of these a day to loose a large portion of your day on just switching thoughts.
 
-Prior to Mob Programming I was in a team that used Kanban. A big part of Kanban is limiting work in progress. We actively tried decreasing work in progress with limited levels of success. In a team of 6 developers we typically had 7 or 8 things on the go at any one time - and we actively paired.
+For the last few years the teams I've been involved with have used Kanban - a core tenant of Kanban is to set work in progress limits per channel of work. 
 
-Let's take Incomplete Information.
+In the one team I was in we had 8 developers and 2 testers, since we valued pair programming we would try and set a work in progress limit of six in the dev column and three in the test column (we figured if we paired we should be able to reasonably get down to this). For a very long time we gave each other a hard time if we went over this WIP limit. The reality was that sometimes we would go over this limit for practical reasons. For instance, I may feel compelled to start new work because I dodn't know enough or have the skills to help existing work move forward.
+
+--------------------------
+
+When we started Mob Programming we threw away forced WIP limits and instead took the mantra "It's better to finish something than start something new" - that meant before pulling new work to dev, we would help with the testing, etc. We found this was much easier doing as a mob, we had substantially more context as a group compared to pairs or individuals. We also found items moved considerably faster.
+
+I still remember being at our stand meeting one day after working this way and suddenly realizing we had only one item of work in progress for the entire team of 10 - that was an eye opener for me. 
+
+Now, do you achieve this from day one? In my current team we still have some work to do. Occaisonally we will have more than one thing in progress at once.
+
+--------------------------
+
+### Quality of Software being written
+
+Another benefit we've gotten from Mob Programming that has had a direct impact on our productivity is software quality. Again this is a big topic that we could spend a substantial time on. I would like to talk on one aspect of it. 
+
+This is a graph Llwelyn Falco uses in his Mob Programming Guidebook. 
+
+--------------------------
+
+You may be working and you get interrupted by a text message or an email alert that causes a lapse in concentration and bam, you introduce a defect. Or you have been going at at all day and your concentration lapses and a less than ideal approach. Or, you are new to the language and end up writing some cruft that a more experienced developer would avoid. When we work on our own the best and worst of us gets into the code. 
+
+--------------------------
+
+Now, when we work as a mob, only the best of us get's into the code. Remember that work we did a few months ago on that UI thingy? Not a chance, but Igor sitting next to you does and remembers where it is in the code base and what's the best way to work with it. Or you think you've named something well, but Darren points out that the name isn't so great and that a minor refactor will reveal intent a lot better. When working as a mob I've found only the best of you gets into the code.
+
+--------------------------
+
+So what does this increase on quality have to the bottom line? If you took costs of a solo developer into consideration and you measure the time it takes from starting a user story to deploying to production my bet is it's going to be cheaper to go with the solo developer than the mob.
+
+That said, if time from start to deploy are the boundaries that you are measuring things at you are not really measuring the right thing. Pretty much every study you will come across will tell you that defects detected during development are significantly less expensive to fix than defects detected after something has been released. Ultimately it's this saving from defects in production where I believe Mob Programming wins.
+
+--------------------------
+
+# Isn't this just pair programming?
+
+So, if reduced defects are where the money is at, can you not just achieve this cost saving with pair programming? 
+
+In my experience pair programming produces less defects and re-work compared to solo work and Mob Programming produces less defects and re-work compared to pairing. 
+
+While this has always been my gut feel, recently I discovered a study done by the American Psychological Association in 2006 using 760 students that supports this. It found that groups of two people performed ONLY AS WELL as the cleverest person in the group at solving complex problems compared to groups of three to five people who performed BETTER than the cleverest person in the group at solving complex problems. 
+
+This aligns with my experiences of well functioning mobs - the code is better than what I could have produced in pairs. 
+
+Interestingly, previous to having discovered this study, if you had asked me how many people one should have in a mob based on imperical evidence I would have told you 4-5 people provided you have the right setup. I'll come back to having the right setup later. There are at least two other advantages I find Mob Programming has over pair programming. 
+
+The first one is that in general I've found Mob Programming less confrontational than pair programming. Have you ever observed two programmers get into a discussion about what's the best UI framework is, or the best text editor, or how to name something, or whether January should be numerically represented as a zero or a one! It can get really heated.
+
+When these types of discussions emerge in Mob Programming the power of the mob steps in. It's no longer you vs. me, rather it's as a group we think this is the best way to go. That makes it a lot easier to move on and keeps emotions stable.
+
+Secondly, compared with pair programming, the flow of the mob is better. When you are pairing and someone get's a phone call, or needs to go to a meeting or has some sort of disruption - the pair stops. With mobs, these interruptions are significantly decreased. The group can continue with people leaving and re-joining organically.
+
+--------------------------
 
 ### Waiting for information
 
+Let's take Incomplete Information.
+
 You have started on a piece of work and realize you need to know some information before you can continue. Now the person that has that information is busy on something else or isn't available, so you wait for them to be available. To not be idle you start another piece of work. Now you have two things that you are working on. The irony of it is you have introduced context switches for yourself and the person you need to speak to. 
-
-Indications are that context switches can cost you anywhere from 10 minutes upwards per switch so you only need a handful of these a day to loose a large portion of your day on just switching thoughts.
-
-With Mob Programming because there are more people available in the mob you have more information at hand. 
-
-Remember that work we did a few months ago on that UI thingy? Not a chance, but Igor sitting next to you does and remembers where it is in the code base. Darren can remember a discussion you missed about the item you are working on and reminds you to check out something on the wiki. Collectively you have a mob memory that is far superior to your individual memory. And the rule of thumb in a mob is.
 
 > If you are not able to answer our own questions, then we are missing someone in the mob
 
@@ -232,80 +274,38 @@ Now in the past we would have scheduled a meeting with the person, asked the que
 
 Reducing the amount of information you have to wait for solves a lot of problems and it is just one of the many benefits we've gotten from Mob Programming.
 
-### Quality of Software being written
+--------------------------
 
-Another benefit we've gotten from Mob Programming that has had a direct impact on our productivity is software quality. Again this is a big topic that we could spend a substantial time on. I would like to talk on one aspect of it. 
+Now before we move to questions, I would like to talk briefly about ergonomics and physical setup when Mob Programming.
+Your physical setup matters. You need space to effectively mob over extended periods of time.
 
-This is a graph Llwelyn Falco uses in his Mob Programming Guidebook. When we work on our own the best and worst of us gets into the code. When we work in a mob, only the best of us get's into the code.
+When we started Mob Programming in our team at MYOB we had no dedicated equipment - we booked meeting rooms. While this worked for a few days, with time it began to take effort to assemble the mob. As it took more effort people reverted back to was easiest for them - which was working on their own at their own desks.
 
-Now does better code mean we are being more productive?
+It was only when we got a mob station in our work environment did we see Mob Programming become a day to day activity and even then because we had limited floor space things were cramped and sometimes uncomfortable.
 
-If you took the initial developer hours into considration and compare the time spent to solve a problem on your own compared to solving it in a mob, it takes longer as a mob. So why do I still think we are being more productive when Mob Programming? 
+It's only been recently, after removing some physical desks from our floor space to give us more room have things really begin to feel more comfortable and I've noticed that there seems to be a direct correlation between physical setup and amount of time spent mobbing.
 
-One reason is pretty much every study you will come across will tell you that defects detected during development are significantly less expensive to fix than once they get to production. My experience with Mob Programming is that it substantially reduces your defect rate. This makes sense.
-
-When I write code on my own, the very best of what I do and the very worst of what I do gets into the code. 
-When a group of people mob together, you get the best of everyone into all the code. The worst of everyone get's left out. 
-In the XP world we talk about the principle of diversity which leads to more robust solutions - I believe this principle is maginified in Mob Programming.
-
-> We get the best of everyone into all the code
-
-It's only when you start taking the total end to end cycle of software into consideration that Mob Programming becomes significantly faster. There is less going to back fix and debug and this ultimately makes you more productive.
-
-So I've just tackled two aspects of productivity related to Mob Programming. There are numerous others but for the sake of time I'm going to move on to other things I would like to cover in this session.
-
----------------------------------------------------------------------------------------------------------------------------------
-
-# Isn't this just pair programming?
-
-So, another question I get is, isn't this just the same as pair programming. Do I not get all the benefits from Mob Programming in pair programming?
-
-The answer for me is that Mob programming is an evolutionary step forward from pair programming, and I would argue that there are at least two significant advantages that make Mob Programming easier than pair programming. 
-
-Fristly, in my experience pair programming can be more confrontational. Have you ever observed two programmers get into a discussion about what's the best UI framework is, or the best text editor, or how to name something, or whether January should be numerically represented as a zero or a one! It can get really heated.
-
-When these types of discussions emerge in Mob Programming the power of the mob steps in. It's no longer you vs. me, rather it's as a group we think this is the best way to go. That makes it a lot easier to move on and keeps emotions stable.
-
-Secondly, compared with pair programming, the flow of the mob is better. When you are pairing and someone get's a phone call, or needs to go to a meeting or has some sort of disruption - the pair stops. With mobs, these interruptions are significantly decreased. The group can continue with people leaving and re-joining organically.
-
-So don't get me wrong - pair programming is good and is more than appropriate in certain circumstances. In fact, I would argue that if we had wide spread availability of large screens and projectors when pair programming first started, the extreme programming world would probably have ended up with Mob Programming. 
-
-Now this opens up an interesting thought - as we see innovation in virtual reality headsets and speed of networks, what is waiting for us in the next ten years in this area? What's the next evolution of collaborative coding?
-
-> What's the next evolution of collaborative coding?
-
----------------------------------------------------------------------------------------------------------------------------------
-
-Now before I end I want to share some learnings i've gained as we have done Mob Programming
-
-# Ergonomics & working environment matter
-
-I would like to briefly touch the topic of erognomics and you work environment. Ergonomics & you working environment matter. You need space to effectively mob. For instance, our mob station that we use right now is not ideal. It feels cramped. If you look at our picture people are a bit too close to each other. The table is a bit too small. This can lead to people feeling cramped or in your face. 
-
-I've worked in teams where we substantially more space and it has a large impact on how well you can adopt this practice.
+The slide I have up is a picture of the setup a team based in the US has of Mob Programming. You will notice they have lot's of space, everyone looks comfortable and the extensive use of big screens. Interestingly this particular company has seen the rewards of this way of working - they now have 12 mobs working at any one time.
 
 Does that mean if you don't have the space you cannot mob? 
 
-No, you can still make it work with smaller spaces, but as you prove the practice you should be looking at adjusting the physical environment to make it a sustainable practice.
+No, you can still make it work with smaller spaces, but as you prove the practice you should be looking at adjusting the physical environment to make it a sustainable practice. The tail shold not wag the dog.
 
----------------------------------------------------------------------------------------------------------------------------------
+---------------------------------
 
-# How many people can you have in a mob?
+# Where to from here?
 
-Next, I want to talk about how many people you can have in a mob. In my experience I've found that found 4-5 people in a mob works well provided you have the right setup. In our current space, we are probably pushing it with 4 people - it get's cramped and people disengage when we reach 5. In my previous organization we reguarly had 5 people and sometimes went up to 6.
+In this session I've gone through the mechanics of Mob Programming and how to start and some of the things we have learn't along the way; while that is important there is a deeper message behind Mob Programming - at it's essence Mob Programming is about **people collaborating and finding out what works best for them**. 
 
-I've also spoken to teams that have scaled up to 8 people at once although I haven't been in a mob that large but in general 4-5 people is effective and keeps the flow.
+No one person is the same and no mob should be the same either! That means if you are doing Mob Programming right and have grasped its essence, in a few months how you do it will be different from how I've presented it here.  
 
----------------------------------------------------------------------------------------------------------------------------------
+That begs the question, what's after Mob Programming? As Mob Programming has evolved from pair programming, something will evolve from Mob Programming. 
 
-# You may feel exposed 
-
-Now before I end I want to give a quick warning, you may feel exposed with this type of work. 
-If you cannot feel comfortable with someone else in front of the keyboard and you explaining to them why they should do something this form of collaboration is going to be really hard. That said, I would argue that if you cannot work in highly collaborative environments you are significantly impacting your future growth opportunities creating software and maybe it is something worth investing in.
+Will virtual reality hardware and network bandwidth get to a point where we can have an equal if not better experience collaborating in virtual space compared to a co-located space? What type of interactions will we have? How will we work together? Or maybe something else will emerge that none of us saw coming. Needless to say, it is an exciting time to be involved in the creation of software regardless of what comes next!
 
 For me, I've had an amazing journey for the last two years with Mob Programming. I've had the priveldge of learning, doing and having fun developing software this way. I would really recommend this practice to people and teams that want to develop better software.
 
-Thank you for being such a good audience. 
+Thank you for being such a good audience.
 
 ## References
 
