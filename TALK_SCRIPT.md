@@ -168,29 +168,25 @@ A time-boxed separation works as follows. First, you clearly identify what you n
 
 --------------------------
 
-In general what we are trying to do as a group is default to collaboration. That means we prefer mobs, but if it doesn not make sense working this way we will revert to pairs, and someones even solo's
+In general what we are trying to do as a group is default to collaboration. That means we prefer mobs, but if it doesn not make sense working this way we will revert to pairs, and sometimes even solo's
 
 --------------------------
 
-# The productivity question
+# Is this productive?
 
-So the most common question I get when I explain how Mob Programming works is the productivity question. How can one be productive this way - surely if you have so many people working on one thing together you have massively increased the cost of developing software while decreasing productiivity? 
+So I've spent a bit of time talking about the various practices and techniques of mob programming. I want to take the conversation in a different direction and tackle the most common business question I get when I talk about Mob Programming. 
 
-Measuring productivity of software developers is hard. I love this quote by Russell Ackoff. 
+Just the other day an accountant in the office was walking past our mob and in all honestly asked us "how can you justify working this way - surely you have just quadruppled costs?".To answer this it really boils down to how you measure developer productivity and measuring productivity of software developers is hard. 
 
-> Managers who don't know how to measure what they want settle for wanting what they can measure - Russell Ackoff
+Russell Ackoff, a well known organizational theorist said:
 
-Most of the important things related to developer productivity are difficult to measure and so because we can't effectively measure them we pick easier things to measure, and soon because we are measuring these things we begin to think the wrong things are valuable and that they are an indicator of productivity.
+> Managers who don't know how to measure what they want settle for wanting what they can measure
 
-Let me share a quick experience a friend of mine had which I think polarizes this. He was working on a project that had slipped well behind schedule and was unfortunate enough to sit next to the project manager. After one of the many frequent status updates of 'how they were progressing' on the work the project manager turned to him while he was sitting at his desk and pleaded "Can you not just type faster". 
+Most of the important things related to developer productivity are difficult to measure. Because we struggle to measure these things we pick easier things to measure, and soon because we are measuring these things we begin to think the wrong things are valuable and that they are an indicator of productivity.
 
-Well, we know that measuring developer productivity by how fast someone types is not an effective. We also know things like counting the number of lines of code written is not any good indicator either. 
+Let me share a quick experience a friend of mine had which I think polarizes this. He was working on a project that had slipped well behind schedule. He happened to sit next to the project manager and after one of the many frequent status updates of 'how they were progressing' on the work the project manager turned to him and asked "Can you just not type faster". 
 
-In speaking to others that have used Mob Programming, a friend of mine sent a measurement he did of another team that started Mob Programming - just looking at the graph you can see at a glance when the team started Mobbing - all of a sudden the cycle time of work decreased. This is interesting.
-
-Prior to Mob Programming I was in a team that used Kanban. A big part of Kanban is limiting work in progress. We actively tried decreasing work in progress with limited levels of success. In a team of 6 developers we typically had 7 or 8 things on the go at any one time - and we actively paired.
-
-When we started Mob Programming we threw away forced WIP limits - after a few months I remember looking up at the board and being astonished that we were naturally gravatating towards one or two items in progress for the entire team of 10 - that was an eye opener for me. 
+Well, we know that measuring developer productivity by how fast someone types is a warped concept of productivity. We also know things like  hours worked or number of lines of code written are also not good indicators.
 
 So are we more productive using Mob Progrmming?
 
@@ -205,6 +201,14 @@ Does anyone have any ideas or personal favorties?
 { Take answers from the audience }
 
 Thank you - so it turns out there are a number of things that destroy developer productivity. I've made a list of things that I've encountered in my own development and interestingly many of these things became non-issues when we started Mob Programming. 
+
+When we started Mob Programming we threw away forced WIP limits - after a few months I remember looking up at the board and being astonished that we were naturally gravatating towards one or two items in progress for the entire team of 10 - that was an eye opener for me. 
+
+#### Multi tasking
+
+In speaking to others that have used Mob Programming, a friend of mine sent a measurement he did of another team that started Mob Programming - just looking at the graph you can see at a glance when the team started Mobbing - all of a sudden the cycle time of work decreased. This is interesting.
+
+Prior to Mob Programming I was in a team that used Kanban. A big part of Kanban is limiting work in progress. We actively tried decreasing work in progress with limited levels of success. In a team of 6 developers we typically had 7 or 8 things on the go at any one time - and we actively paired.
 
 Let's take Incomplete Information.
 
