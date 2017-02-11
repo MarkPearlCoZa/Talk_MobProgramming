@@ -140,11 +140,35 @@ From experience we've learn't that when people re-join the mob it's disruptive t
 
 Now, in the time lapse video most of the time people are focussed at the screen. When we work this way I am generally exhausted by the end of the day.
 
-So, that is how a typical mob session looks.  
+So, that is how a typical mob session looks. There are two scenarios are common enough that I want to make mention of.
+
+-------------------------
+
+The first scenario is when only one person in the mob knows the particular thing and that thing is the core ingredient of the problem at hand - everyone else has absolutely no clue. 
+
+On these occasions it can prove a challenge for the mob to remain engaged if the expert becomes the typist typically because they move faster than everyone else can follow and the rest of the mob battles to contribute. 
+
+At times like this, instead of having a normal rotation of the typist, we've found it works better if the expert does not rotate into the typist role at all. Instead, they remain as part of the rest of the mob and focus on sharing the knowledge, walking the group through how to solve the problem at hand. 
+
+-------------------------
+
+The second scenario is when nobody in the mob knows what's going on. Usually this happens because of one of two situations. 
+
+Either the code is complex and hard to understand OR nobody has enough foundational knowledge of an underlying aspect of the technology being used.
+
+When the code is complex or hard to understand I've found doing a quick "throw away" refactor to increase understanding works really well. How this works is at the beginning of the "throw away" refactoring we save our code and do a check-in to our version control; this makes it easy at the end of the interval to reset the code back to the state it was before we started refactoring. 
+
+Next, as a mob we refactor the complex code in big bold steps; we are refactoring to get a better understanding of the code, identifying smaller pieces of functionality that can be encapsulated or extracted out; while we try to make the refactorings safe, we don't get bogged down by this. 
+
+At the end of the interval as a mob we have a quick discussion on what we have uncovered. Now we **reset the code** and rotate typists and re-attempt to refactor the code, but this time we do it very carefully, focussing on the refactorings being safe. 
+
+The other situation that often results in nobody knowing what's going on is when there is missing foundational knowledge of an underlying aspect of the technology being used. Often an indicator of this is the existence of an online manual that needs to be read or a series of tutorials that need to be done, etc. In these instances we've found it useful to do a time-boxed separation.
+
+A time-boxed separation works as follows. First, you clearly identify what you need to understand before you can move forward. Then you disperse the mob for a pre-determined amount of time. The objective of each person during this time is try to gain the knowledge about the thing holding the mob back from progressing. If anyone gets to that point before the time box has elapsed they let everyone know and re-assemble the mob. If the pre-determined time lapses and nobody has got to that point yet, you still re-assemble the mob, each person shares what they have figured out so far and then as a mob you decide if you need another time-boxed separation or if you have enough context as a group to tackle the problem as a mob.
 
 --------------------------
 
-There are two variations to the standard approach I want to make mention of.
+In general what we are trying to do as a group is default to collaboration. That means we prefer mobs, but if it doesn not make sense working this way we will revert to pairs, and someones even solo's
 
 --------------------------
 
