@@ -1,4 +1,4 @@
-God morning, welcome to this session of getting the best of everyone using Mob Programming.
+Good morning, welcome to this session of getting the best of everyone using Mob Programming.
 
 I would like to start off this session by sharing an experience I had 2 years ago while attending a conference in the US. Now when I travel I like to spend time doing a thing called Team Tourism. The idea behind Team Tourism is that there are companies all over the world that are doing pockets of brilliance, and if we just spend some time discovering them and applying them to our own teams it can have a dramatic impact on how we do work.
 
