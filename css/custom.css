@@ -1,3 +1,7 @@
 span.footerText, a.footerText, p.footerText{
     font-size: 0.5em;
 }
+
+ol.spacedList li, ul.spacedList li {
+    padding: 10px 10px;
+}
