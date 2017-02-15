@@ -88,29 +88,27 @@ As someone who is not the typist but still part of the mob you have three main j
 2. Talk at an appropriate levels of abstraction that everyone can understand.  
 3. Always try to increase the level of understanding in the mob.
 
-As part of the rest of the mob, you are part of the problem solving team; it's your job to look for things that still need to be done to solve the current problem. Now sometimes you will find that the mob will loose focus and unintentionally move to a new problem before solving the one at hand; it is part of your role to look out for this, if you notice things getting sidetracked, bring it to everyone's attention and then as a group decide what to do; do you park the current item and finish what you originally started, or does it make sense to tackle the second item first?
+As part of the rest of the mob, you are part of the problem solving team; it's your job to look for things that still need to be done to solve the current problem. Now sometimes you will find that the mob will loose focus and unintentionally move to a new problem before solving the one at hand; it is part of your role to look out for this, if you notice things getting sidetracked, bring it to everyone's attention and then as a group decide what to do; do you park the current item and finish what you originally started, or does it make more sense to tackle the second item first?
 
 > The key is that while you may see many angles and approaches, as a mob you should be trying to get consensus on what the next logical step is.  
 
-Another very important part of your role is to talk at an appropriate level that everyone can understand. For instance, when directing the typist you should talk at a level of abstraction that the typist is able to digest. Depending on how long the typist has been with the mob, how in sync they are with what the mob is wanting them to do, and what their skill level is, the level of abstraction may change. An example of this may be that you see a potential refactor to simplify the code by extracting a method. Asking the typist to extract the method may be a sufficient level of abstraction. If the typist looks at you with a blank stare, go to a lower level of abstraction - become a little more explicit - "highlight line 114 to 127 and then press ctrl+alt+m to extract method". 
+Another very important part of your role is to talk at an appropriate level of abstraction that everyone can understand. For instance, when directing the typist you should talk at a level of abstraction that the typist is able to digest. Depending on how long the typist has been with the mob and how in sync they are with what the mob is wanting them to do the level of abstraction may change. An example of this may be that you see a potential refactor to simplify the code by extracting a method. Asking the typist to extract the method may be a sufficient level of abstraction. If the typist looks at you with a blank stare, go to a lower level of abstraction - become a little more explicit - "highlight line 114 to 127 and then press ctrl+alt+m to extract method". 
 
-Finding the appropriate level to talk at is part of the challenge of mobbing. I've noticed that when a mob is just starting out it typically uses lower levels of abstraction, once it begins to find a common understanding it seems to use higher levels of abstraction. 
+Finding the appropriate level to talk at is part of the challenge of mobbing. Something I've noticed that when a mob is just starting out it typically uses lower levels of abstraction, once a mob begins to find a common understanding it seems to use higher levels of abstraction. 
 
-While not understanding is most apparent when directing the typist, you should be mindful of everyone else who is part of the rest of the mob. If anyone in the mob is not understanding, look for safe opportunities to further explain. 
+While not understanding is most apparent when directing the typist, you should be mindful of everyone else who is part of the rest of the mob. If you think that somene in the mob is not understanding, look for safe opportunities where you can help increase the understanding. 
 
-On the flip side, if you are not understanding what is being said by someone in the mob have the courage to ask for it to be further explained. This falls in line with the third objective of always trying to increase the levels of understanding in the mob. 
-
-Mob Programming is about a group of people doing things together and learning from each other. Talking at levels that others in the mob do not understand significantly impairs learning. Getting this right is a real challenge because we are all different. 
+On the flip side, if you are not understanding what is being said by someone in the mob have the courage to ask for it to be further explained. Mob Programming is about a group of people doing things together and learning from each other. Talking at levels that others in the mob do not understand significantly impairs learning. 
 
 --------------------------
+
+Now, getting this all right is a real challenge because we are all different. 
 
 Woody Zuill, the father of Mob Programming, talks about a protocol he uses for working with others when he's in a mob, it's really simple..
 
 > You should always treat people with Kindness, Consideration & Respect 
 
 Now all three of these attributes are important but I would like to spend a bit of time on the attribute of consideration. Consideration is about considering the other person's point of view - it means we have to really focus on listening. And while it is extremely effective once you have the hang of it, sometimes getting started can prove to be a challenge because we are not used to working this way.
-
-Finding the appropriate level of abstraction is part of the challenge of Mob Programming. When a mob is just starting out it typically uses lower levels of abstraction to direct the typist, once a mob begins to get its flow you will find higher levels of abstraction are used. 
 
 So those are the two roles. They are simple, yet challenging. If you get them right, you will have a ton fun Mob Programming. If you get them wrong, keep at it. Being able to collaborate effectively takes time and practice. 
 
