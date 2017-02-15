@@ -25,7 +25,7 @@ I am here to give you hope that if you would like to try this way of working, it
 
 --------------------------------
 
-In that vain, many of the ideas and experiences I'll be sharing today are also in a guide I've put together about Mob Programming which you can buy on LeanPub. It's focus is really for teams starting out with Mob Programming, it is still a work in progress, but hopefully it will help you avoid some of the mistakes we made when we started mobbing.
+In that vain, many of the ideas and experiences I'll be sharing today are also in a guide I've put together which you can buy on LeanPub. It's focus is really for teams starting out with Mob Programming, it is still a work in progress, but hopefully it will help you avoid some of the mistakes we made when we started mobbing.
 
 --------------------------------
 
