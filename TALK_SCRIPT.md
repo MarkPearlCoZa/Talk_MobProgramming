@@ -14,7 +14,7 @@ Today I'm going to share with you a bit about Mob Programming as well as some of
 
 # About Me
 
-By way of introduction, my name is Mark Pearl, I'm a Dev Lead for MYOB in Auckand. My team maintains parts of MYOB's Practice Online System. If you find today's session interesting I share many of my ideas and experiences on my Blog and on Twitter and would love to hear from you.
+By way of introduction, my name is Mark Pearl, I'm a Dev Lead for MYOB in Auckand. My team maintains parts of MYOB's Practice Online System. If you find today's session interesting I share many of my ideas and experiences on my Blog and on Twitter and would love to engage with you on those platforms.
 
 --------------------------------
 
