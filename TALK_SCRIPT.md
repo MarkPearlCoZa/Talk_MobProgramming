@@ -1,20 +1,24 @@
 Good morning, welcome to this session of getting the best of everyone using Mob Programming.
 
-I would like to start off this session by sharing an experience I had 2 years ago while attending a conference in the US. Now when I travel I like to spend time doing a thing called Team Tourism. The idea behind Team Tourism is that there are companies all over the world that are doing pockets of brilliance, and if we just spend some time discovering them and applying them to our own teams it can have a dramatic impact on how we do work.
+--------------------------------
 
-Now, in this instance I was lucky enough spend a day at a company called PluralSight. I knew a bit about Pluralsight before I set this up and I had this expectation that they had a focus on Software Craftmanship and that I would pair up with somebody. So imagine my surprise when I arrived there on the day and the team that I was going to spend time with does not do pairing, they do this thing called Mob Programming. And while I had no clue what Mob Programming was at the time, what I experienced on that day was not just a unique way of tackling work, but also one of the most enjoyable ways of learning and improving as a software developer. 
+I would like to start off this session by sharing an experience I had 2 years ago while attending a conference in the US. When I travel I like to spend time doing a thing called Team Tourism. The idea behind Team Tourism is that there are companies all over the world that are doing amazing things, and if you just spend time with them discovering what they do, you can then take that back to your own team and have a dramatic impact on how team works.
 
-Today I'm going to share with you a bit about Mob Programming as well as some of the things we have learn't from working this way.
+Now, in this instance I was lucky enough spend a day at a company called PluralSight. I knew a bit about Pluralsight and knew that they had a strong focus on Software Craftmanship so  I had this expectation that  I would spend the dair pair programming with somebody. 
+
+So imagine my surprise when I arrived there and found out that the team that I was going to spend the day with did not do pairing, instead they did this thing called Mob Programming. I had no clue what Mob Programming was at the time, but what I experienced on that day was not just a unique way of tackling work, it was also one of the most enjoyable ways of learning and improving as a software developer. 
+
+Today I'm going to share with you a bit about Mob Programming as well as some of the things we have learn't from working this way for a while.
 
 --------------------------------
 
 # About Me
 
-By way of introduction, my name is Mark Pearl, I'm a Dev Lead for MYOB in Auckand. My team maintains parts of MYOB's Practice Online System. If you find today's session interesting, I share many of my ideas and experiences on my Blog and on Twitter.
+By way of introduction, my name is Mark Pearl, I'm a Dev Lead for MYOB in Auckand. My team maintains parts of MYOB's Practice Online System. If you find today's session interesting I share many of my ideas and experiences on my Blog and on Twitter and would love to hear from you.
 
 --------------------------------
 
-I want to start off this session by framing it with a quote from Peter Block which says the value of anothers experience is to give us hope, not to tell us how or whether to proceed. 
+I want to start off this session by framing it with a quote from author and organizational development expert Peter Block. He says the value of anothers experience is to give us hope, not to tell us how or whether to proceed. 
 
 I'm not here to tell you that you must do Mob Programming, or that this is the only way that it can be done. 
 I am here to give you hope that if you would like to try this way of working, it is possible; 
