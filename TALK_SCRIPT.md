@@ -25,6 +25,10 @@ I am here to give you hope that if you would like to try this way of working, it
 
 --------------------------------
 
+In that vain, many of the ideas and experiences I'll be sharing today are also in a guide I've put together about Mob Programming which you can buy on LeanPub. The guides focus is for teams starting out with Mob Programming, it is still a work in progress, but hopefully it will help you avoid some of the mistakes we made when we started mobbing.
+
+--------------------------------
+
 # Outline of the session
 
 Now the outline of how this session is going to go is as follows... 
