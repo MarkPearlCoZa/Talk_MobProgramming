@@ -64,21 +64,19 @@ The concept of driver and navigator bled into Mob Programming - I would like to 
 
 As the typist, all you need to be able to do is:
 
-* Understand what the mob is asking you to do
+* Listen to what the mob is asking you to do
 * Translate it to code
-* Become comfortable working with an incomplete understanding for short periods of time
+* Becomfortable working with an incomplete understanding for short periods of time
 
-Understanding what the rest of the mob is asking you to do can be a challenge. Sometimes the mob won't be sure what they want, or will give you conflicting requests. At times like this you need to remain calm and ask for further clarification on what the next step is; help get the rest of the mob to a place where they have consensus.
+Listening to what the rest of the mob is asking you to do can be a challenge. Sometimes the mob won't be sure what they want, or will give you conflicting requests. At times like this you need to remain calm and ask for further clarification on what the next step is; help get the rest of the mob to a place where they have consensus.
 
-Another important part of your role is to be comfortable working with an incomplete understanding of the solution for short periods of time. Sometimes you will have a good idea of where things are going; other times you will have no clue. During the times when you have no clue it is important that you soldier on and trust the rest of the mob. 
+Another important part of your role is to translate what the mob is asking you to do to code. You do not need to understand the overall solution to be able to write the code. Sometimes you will have a good idea of where things are going; other times you will have no clue. During the times when you have no clue it is important that you soldier on and trust the rest of the mob - don't prematurely challnge WHY you are being asked to do something; a good indication that you are prematurely challenging things is if you haven' written the code yet. 
 
-As the typist, you should hold off prematurely challenging why you are being asked to do something by the rest of the mob. A good indication that you are prematurely challenging things is if you haven't translated it to code and typed it out yet. 
+In my early days of mobbing, when I was the typist, I would challenge things before they had been translated to code. I found as a mob we would often have lengthy debates with very little progress. After changing my approach to only challenging things after the code was on the screen I noticed that the number of debates reduced significantly. Looking back, I suspect that one of two things was happening; we were probably had the same solution in mind but were using different words and did not realize it because we couldn't see the code, or the solution the rest of the mob wanted me to take was appropriate and I was just not seeing it.
 
-In my early days of mobbing, when I was the typist, I would challenge things before they had been translated to code. I found as a mob we would often have lengthy debates with little progress. After changing my approach to only challenging things after I had typed them out I noticed that the number of debates reduced significantly. Looking back, I suspect that when challenging prematurely one of two things was happening; we were probably saying the same thing but with different words and did not realize it because we couldn't see the code, or the approach the rest of the mob wanted me to take was appropriate and I was just not seeing it.
+Either way, it seems that as the typist writing the code first leads to better mobbing.
 
-Either way, it seems writing the code first often leads to better mobbing.
-
-Now, I mentioned that you should be comfortable working with an incomplete understanding of the solution for short periods of time. The phrase "short periods of time" is important. As the typist, once an idea has been expressed fully in code, if you still don't understand what's going on, get the rest of the mob to explain it to you. You need to do this because you will be part of the rest of the mob substantially more than you will be behind the keyboard. As part of the rest of the mob you need to understand what's going on to be able to add value and help solve the problem at hand - filling in the blanks sooner rather than later will help the mob be effective for the entire session.
+Now, I mentioned that you should be comfortable working with an incomplete understanding of the solution for short periods of time. The phrase "short periods of time" is important. As the typist, once an idea has been expressed fully in code, if you still don't understand what's going on, get the rest of the mob to explain it to you. You need to do this because you will be part of the rest of the mob substantially more than you will be the typist. As part of the rest of the mob for you to add value to the group you need to understand what's going on - filling in the blanks sooner rather than later will help the mob be effective for the entire session.
 
 --------------------------
 
@@ -87,18 +85,14 @@ Now, I mentioned that you should be comfortable working with an incomplete under
 As someone who is not the typist but still part of the mob you have three main jobs:
 
 1. Help discover what the next logical step is to solving the problem.  
-2. Talk at an appropriate level that everyone can understand.  
+2. Talk at an appropriate levels of abstraction that everyone can understand.  
 3. Always try to increase the level of understanding in the mob.
 
-As part of the rest of the mob, you are part of the problem solving team; it's your job to look for things that still need to be done to solve the current problem; you do this working collaboratively with others in your mob.
-
-You will find that sometimes the mob will loose focus and unintentionally move to a new problem before solving the one at hand; it is part of your role to look out for this, if you notice things getting sidetracked, bring it to everyone's attention and then as a group decide what to do; do you park the current item and finish what you originally started, or does it make sense to tackle the second item first?
+As part of the rest of the mob, you are part of the problem solving team; it's your job to look for things that still need to be done to solve the current problem. Now sometimes you will find that the mob will loose focus and unintentionally move to a new problem before solving the one at hand; it is part of your role to look out for this, if you notice things getting sidetracked, bring it to everyone's attention and then as a group decide what to do; do you park the current item and finish what you originally started, or does it make sense to tackle the second item first?
 
 > The key is that while you may see many angles and approaches, as a mob you should be trying to get consensus on what the next logical step is.  
 
-Another very important part of your role is to talk at an appropriate level that everyone can understand. For instance, when directing the typist you should talk at a level of abstraction that the typist is able to digest. Depending on how long the typist has been with the mob, how in sync they are with what the mob is wanting them to do, and what their skill level is, the level of abstraction may change. 
-
-An example of this may be that you see a potential refactor to simplify the code by extracting a method. Asking the typist to extract the method may be a sufficient level of abstraction. If the typist looks at you with a blank stare, go to a lower level of abstraction - become a little more explicit - "highlight line 114 to 127 and then press ctrl+alt+m to extract method". 
+Another very important part of your role is to talk at an appropriate level that everyone can understand. For instance, when directing the typist you should talk at a level of abstraction that the typist is able to digest. Depending on how long the typist has been with the mob, how in sync they are with what the mob is wanting them to do, and what their skill level is, the level of abstraction may change. An example of this may be that you see a potential refactor to simplify the code by extracting a method. Asking the typist to extract the method may be a sufficient level of abstraction. If the typist looks at you with a blank stare, go to a lower level of abstraction - become a little more explicit - "highlight line 114 to 127 and then press ctrl+alt+m to extract method". 
 
 Finding the appropriate level to talk at is part of the challenge of mobbing. I've noticed that when a mob is just starting out it typically uses lower levels of abstraction, once it begins to find a common understanding it seems to use higher levels of abstraction. 
 
