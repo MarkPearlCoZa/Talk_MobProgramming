@@ -2,11 +2,11 @@ Good morning, welcome to this session of getting the best of everyone using Mob 
 
 --------------------------------
 
-I would like to start off this session by sharing an experience I had 2 years ago while attending a conference in the US. When I travel I like to spend time doing a thing called Team Tourism. The idea behind Team Tourism is that there are companies all over the world that are doing amazing things, and if you just spend time with them discovering what they do, you can then take that back to your own team and have a dramatic impact on how team works.
+I would like to start off this session by sharing an experience I had 2 years ago while attending a conference in the US. When I travel I like to spend time doing a thing called Team Tourism. The idea behind Team Tourism is that there are companies all over the world that are doing amazing things, and if you just spend time with them discovering what they do, you can then take that back to your own team and have a dramatic impact on how your own team works.
 
-Now, in this instance I was lucky enough spend a day at a company called PluralSight. I knew a bit about Pluralsight and knew that they had a strong focus on Software Craftmanship so  I had this expectation that  I would spend the dair pair programming with somebody. 
+Now, in this instance I was lucky enough spend a day at a company called PluralSight. I knew a bit about Pluralsight and knew that they had a strong focus on Software Craftmanship so I had this expectation that I would spend the dair pair programming with somebody. 
 
-So imagine my surprise when I arrived there and found out that the team that I was going to spend the day with did not do pairing, instead they did this thing called Mob Programming. I had no clue what Mob Programming was at the time, but what I experienced on that day was not just a unique way of tackling work, it was also one of the most enjoyable ways of learning and improving as a software developer. 
+Imagine my surprise when I arrived at PluralSight and found out that the team that I was going to spend the day with did was not going to do any pairing, instead they were going to do this thing called Mob Programming. I had no clue what Mob Programming was at the time, but what I experienced on that day was not just a unique way of tackling work, it was also one of the most enjoyable ways of learning and improving as a software developer. 
 
 Today I'm going to share with you a bit about Mob Programming as well as some of the things we have learn't from working this way for a while.
 
@@ -34,7 +34,7 @@ In that vain, many of the ideas and experiences I'll be sharing today are also i
 Now the outline of how this session is going to go is as follows... 
 
 We are going to start off by briefly looking into what Mob Programming is, I'll take you through the roles and mechanics of the practice. 
-Then I'm going to spend some time tackling common questions around Mob Programming as well as the things we have learn' specifically in our team as we have applied this practice.
+Then I'm going to spend some time tackling common questions around Mob Programming as well as the things we have learn't specifically in our team as we have applied this practice.
 
 --------------------------------
 
@@ -47,12 +47,11 @@ Mob Programming is when three or more people work together to solve a problem at
 --------------------------------
 
 And while this may sound like a radical idea, there are companies all over the world that are seeing major benefits from doing Mob Programming in their teams - so it is not as radical as you may think.
-
 --------------------------------
 
 # What are the roles in mob programming
 
-Before I can take you through the mechanics of Mob Programming I need to explain the origins of mobbings and the roles.
+Before I can take you through the mechanics of Mob Programming I need to explain the origins of Mob Programming and the two main roles.
 
 Mob Programming evolved from pair programming. In pair programming you have two roles - the driver and the navigator. While the driver has the keyboard and is coding, the navigator looks at the code from a higher level looking for areas that the driver is missing.
 
@@ -66,7 +65,7 @@ As the typist, all you need to be able to do is:
 
 * Listen to what the mob is asking you to do
 * Translate it to code
-* Becomfortable working with an incomplete understanding for short periods of time
+* Be comfortable working with an incomplete understanding for short periods of time
 
 Listening to what the rest of the mob is asking you to do can be a challenge. Sometimes the mob won't be sure what they want, or will give you conflicting requests. At times like this you need to remain calm and ask for further clarification on what the next step is; help get the rest of the mob to a place where they have consensus.
 
@@ -122,7 +121,7 @@ So with this in mind, what does Mob Programming look like? Well, the honest trut
 
 --------------------------
 
-First, someone in the mob starts off as the typist. They are in this role for a time boxed period of time - we found ten minutes works well for us and generally we will have a monitor with a dedicated timer counting down the interval. 
+First, someone in the mob starts off as the typist. They are in this role for a boxed period of time - we found ten minutes works well for us and generally we will have a monitor with a dedicated timer counting down the interval. 
 
 During these ten minutes the mob works together to make headway on the problem at hand. At the end of the ten minutes we rotate the typist role and repeat. It's as simple as that.
 
