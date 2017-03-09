@@ -18,3 +18,44 @@ One of MYOB's teams (based in Auckland) have been using Mob Programming for the 
 For those not familiar with Mob Programming, it is a new software development technique where a team of developers works at one computer solving one problem.  It can be seen as an evolutionary step forward from Pair Programming - with it’s own set of challenges and benefits. It accentuates face-to-face communication, team alignment, collaboration, collective code ownership and flow to name a few. We’ve found the outcome of Mob Programming is outstanding software produced by teams. Software that has fewer defects, higher productivity and ultimately a higher return on investment.
 
 For more about Mark you can visit www.MarkPearl.co.za 
+
+
+Introduction - 3 minutes
+* How I was first exposed to Mob Programming by doing Team Tourism
+* What is Mob Programming
+
+The Roles & Responsibilities - 8 minutes
+* What are the roles in Mob Programming
+* 3 Responsibilities for the the typist
+* 3 Responsibilities for the rest of the mob
+
+How it works and what it looks like in real life - 5 minutes
+* Protocol for interacting with people & mantra of Mob Programming
+* Mechanics of Mob Programming in real life
+* What to do when only 1 person in the mob knows whats going on
+* What to do when nobody in the mob knows whats going on
+
+Is this a productive way of working - 5 minutes
+* How do you measure developer productivity and why is this hard.
+* What impacts developer productivity - [Audience Participation]
+
+Multitasking & People Focus - 5 minutes
+* How multitasking is reduced when Mob Programming
+* What is the impact of Mob Programming to WIP limits
+* Examine focus levels of people working separately vs. working together
+* The true lifespan of measuring the impact of quality
+
+Is this just an expensive form of Pair Programming - 5 minutes
+* What studies has concluded is the ideal size for tackling complex problems
+* Two other differences between Mob Programming & pair programming to consider
+
+The impact of waiting for information - 5 minutes
+* How Mob Programming reduces waiting for information
+
+The importance of physical space while Mob Programming - 3 minutes
+* What sort of hardware you need
+
+What will we be doing in 10 years time - 2 minutes
+
+2 + 3 + 5 + 5 + 3 + 5 + 5 + 8 + 3
+2 = 5 = 10 = 15 = 13 = 18 = 23 = 31 = 36
