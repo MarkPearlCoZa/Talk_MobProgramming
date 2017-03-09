@@ -46,7 +46,8 @@ Mob Programming is when three or more people work together to solve a problem at
 
 --------------------------------
 
-And while this may sound like a radical idea, there are companies all over the world that are seeing major benefits from doing Mob Programming in their teams - so it is not as radical as you may think.
+And while this may sound like a radical idea, there are companies all over the world that are seeing major benefits from doing Mob Programming in their teams - so it is not as radical as you may think. 
+
 --------------------------------
 
 # What are the roles in mob programming
@@ -211,8 +212,7 @@ In the one team I was in we had 8 developers and 2 testers, since we valued pair
 
 When we started Mob Programming we threw away forced WIP limits and instead took the mantra "It's better to finish something than start something new" - that meant before pulling new work to dev, we would help with the testing, etc. We found this was much easier doing as a mob, we had substantially more context as a group compared to pairs or individuals. We also found items moved considerably faster.
 
-I still remember being at our stand meeting one day after working this way and suddenly realizing we had only one item of work in progress for the entire team of 10 - that was an eye opener for me. 
-
+I still remember being at our stand up meeting one day after working this way and suddenly realizing we had only one item of work in progress for the entire team of 10 - that was an eye opener for me. 
 Now, do you achieve this from day one? In my current team we still have some work to do. Occaisonally we will have more than one thing in progress at once.
 
 --------------------------
